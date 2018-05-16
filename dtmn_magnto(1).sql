@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2018 at 11:16 AM
+-- Generation Time: May 16, 2018 at 01:25 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
@@ -52,11 +52,11 @@ INSERT INTO `report_viewed_product_aggregated_monthly` (`id`, `period`, `store_i
 (8, '2018-04-01', 1, 27, 'Dell Inspiron 3552 (Z565162HIN9) Notebook', '25440.0000', 4, 9),
 (9, '2018-04-01', 1, 28, 'Dell 3467 (A561201UIN9) Notebook', '25990.0000', 5, 8),
 (10, '2018-04-01', 1, 23, 'Sandisk-Pendrive', '700.0000', 1, 10),
-(11, '2018-05-01', 1, 1, 'Dell Inspirion', '24500.0000', 3, 4),
-(12, '2018-05-01', 1, 28, 'Dell 3467 (A561201UIN9) Notebook', '25990.0000', 4, 3),
+(11, '2018-05-01', 1, 1, 'Dell Inspirion', '24500.0000', 7, 2),
+(12, '2018-05-01', 1, 28, 'Dell 3467 (A561201UIN9) Notebook', '25990.0000', 5, 4),
 (13, '2018-05-01', 1, 33, 'Proteus Fitness Jackshirt-XL-Black', '2700.0000', 7, 1),
-(14, '2018-05-01', 1, 24, 'Gift', '0.0000', 7, 2),
-(15, '2018-05-01', 1, 29, 'Formal Trouser', '1200.0000', 1, 7),
+(14, '2018-05-01', 1, 24, 'Gift', '0.0000', 7, 3),
+(15, '2018-05-01', 1, 29, 'Formal Trouser', '1200.0000', 2, 7),
 (17, '2018-05-01', 1, 32, 'Proteus Fitness Jackshirt-XL-Blue', '2700.0000', 2, 5),
 (23, '2018-05-01', 1, 27, 'Dell Inspiron 3552 (Z565162HIN9) Notebook', '25440.0000', 2, 6);
 
@@ -82,18 +82,18 @@ CREATE TABLE `report_viewed_product_aggregated_yearly` (
 --
 
 INSERT INTO `report_viewed_product_aggregated_yearly` (`id`, `period`, `store_id`, `product_id`, `product_name`, `product_price`, `views_num`, `rating_pos`) VALUES
-(1, '2018-01-01', 1, 1, 'Dell Inspirion', '24500.0000', 31, 1),
+(1, '2018-01-01', 1, 1, 'Dell Inspirion', '24500.0000', 35, 1),
 (2, '2018-01-01', 1, 3, 'Accer Aspire', '35000.0000', 7, 6),
 (3, '2018-01-01', 1, 15, 'HP', '0.0000', 10, 3),
 (4, '2018-01-01', 1, 24, 'Gift', '0.0000', 18, 2),
 (5, '2018-01-01', 1, 2, 'Lenovo', '85000.0000', 7, 8),
 (6, '2018-01-01', 1, 26, 'Black Trousers', '1800.0000', 6, 10),
-(7, '2018-01-01', 1, 25, 'Addidas T-Shirts', '400.0000', 9, 4),
+(7, '2018-01-01', 1, 25, 'Addidas T-Shirts', '400.0000', 9, 5),
 (8, '2018-01-01', 1, 27, 'Dell Inspiron 3552 (Z565162HIN9) Notebook', '25440.0000', 6, 9),
-(9, '2018-01-01', 1, 28, 'Dell 3467 (A561201UIN9) Notebook', '25990.0000', 9, 5),
-(10, '2018-01-01', 1, 23, 'Sandisk-Pendrive', '700.0000', 1, 12),
+(9, '2018-01-01', 1, 28, 'Dell 3467 (A561201UIN9) Notebook', '25990.0000', 10, 4),
+(10, '2018-01-01', 1, 23, 'Sandisk-Pendrive', '700.0000', 1, 13),
 (11, '2018-01-01', 1, 33, 'Proteus Fitness Jackshirt-XL-Black', '2700.0000', 7, 7),
-(12, '2018-01-01', 1, 29, 'Formal Trouser', '1200.0000', 1, 13),
+(12, '2018-01-01', 1, 29, 'Formal Trouser', '1200.0000', 2, 12),
 (13, '2018-01-01', 1, 32, 'Proteus Fitness Jackshirt-XL-Blue', '2700.0000', 2, 11);
 
 -- --------------------------------------------------------
@@ -163,7 +163,8 @@ INSERT INTO `report_viewed_product_index` (`index_id`, `visitor_id`, `customer_i
 (91, 177, NULL, 1, 1, '2018-05-04 06:30:30'),
 (92, 178, NULL, 27, 1, '2018-05-04 09:50:05'),
 (93, 0, NULL, 29, 1, '2018-05-16 08:30:15'),
-(94, 0, NULL, 1, 1, '2018-05-16 08:30:35');
+(94, 0, NULL, 1, 1, '2018-05-16 08:30:35'),
+(98, 0, NULL, 28, 1, '2018-05-16 11:08:40');
 
 -- --------------------------------------------------------
 
@@ -1705,7 +1706,7 @@ CREATE TABLE `search_query` (
 INSERT INTO `search_query` (`query_id`, `query_text`, `num_results`, `popularity`, `redirect`, `store_id`, `display_in_terms`, `is_active`, `is_processed`, `updated_at`) VALUES
 (1, 'Dell', 4, 32, NULL, 1, 1, 1, 0, '2018-04-28 09:16:11'),
 (5, 'Dell inspirion', 1, 3, NULL, 1, 1, 1, 0, '2018-04-20 11:57:29'),
-(10, 'laptop', 4, 79, NULL, 1, 1, 1, 0, '2018-05-16 09:04:33'),
+(10, 'laptop', 4, 81, NULL, 1, 1, 1, 0, '2018-05-16 09:49:31'),
 (27, 'lenovo', 2, 5, NULL, 1, 1, 1, 0, '2018-04-25 08:22:44'),
 (37, 'accer', 1, 6, NULL, 1, 1, 1, 0, '2018-05-02 12:53:55'),
 (86, 'acer', 3, 0, NULL, 1, 1, 1, 0, '2018-04-23 10:38:20'),
@@ -1990,6 +1991,11 @@ INSERT INTO `setup_module` (`module`, `schema_version`, `data_version`) VALUES
 ('Solwin_Cpanel', '1.0.6', '1.0.6'),
 ('Solwin_ScrolltoTop', '1.0.3', '1.0.3'),
 ('Solwin_Soldout', '1.0.2', '1.0.2'),
+('Swissup_Core', '1.2.1', '1.2.1'),
+('Swissup_FontAwesome', '1.0.0', '1.0.0'),
+('Swissup_SlickCarousel', '1.0.0', '1.0.0'),
+('Swissup_ThemeEditor', '1.0.0', '1.0.0'),
+('Swissup_ThemeEditorSwissupAbsolute', '1.0.0', '1.0.0'),
 ('Temando_Shipping', '1.1.0', '1.1.0'),
 ('Trive_Core', '1.0.0', '1.0.0'),
 ('Trive_Revo', '1.0.2', '1.0.2'),
@@ -2139,6 +2145,111 @@ CREATE TABLE `store_website` (
 INSERT INTO `store_website` (`website_id`, `code`, `name`, `sort_order`, `default_group_id`, `is_default`) VALUES
 (0, 'admin', 'Admin', 0, 0, 0),
 (1, 'base', 'Main Website', 0, 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `swissup_core_module`
+--
+
+CREATE TABLE `swissup_core_module` (
+  `code` varchar(50) NOT NULL COMMENT 'Code',
+  `name` varchar(50) DEFAULT NULL COMMENT 'Package Name',
+  `description` varchar(255) DEFAULT NULL COMMENT 'Package Description',
+  `keywords` varchar(255) DEFAULT NULL COMMENT 'Keywords',
+  `data_version` varchar(50) DEFAULT NULL COMMENT 'Data_version',
+  `identity_key` varchar(255) DEFAULT NULL COMMENT 'Identity_key',
+  `store_ids` varchar(64) DEFAULT NULL COMMENT 'Store_ids',
+  `type` varchar(32) DEFAULT NULL COMMENT 'Package Type',
+  `version` varchar(50) DEFAULT NULL COMMENT 'Version',
+  `latest_version` varchar(50) DEFAULT NULL COMMENT 'Latest Version',
+  `release_date` datetime DEFAULT NULL COMMENT 'Release Date',
+  `link` varchar(255) DEFAULT NULL COMMENT 'Module Homepage',
+  `download_link` varchar(255) DEFAULT NULL COMMENT 'Module Download Link',
+  `identity_key_link` varchar(255) DEFAULT NULL COMMENT 'Identity Key Link'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='swissup_core_module';
+
+--
+-- Dumping data for table `swissup_core_module`
+--
+
+INSERT INTO `swissup_core_module` (`code`, `name`, `description`, `keywords`, `data_version`, `identity_key`, `store_ids`, `type`, `version`, `latest_version`, `release_date`, `link`, `download_link`, `identity_key_link`) VALUES
+('Swissup_AddressAutocomplete', 'swissup/address-autocomplete', 'Magento 2 module for address autocompleting', 'address,autocomplete,google', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.7', '2018-04-26 10:36:27', NULL, NULL, NULL),
+('Swissup_AddressFieldManager', 'swissup/address-field-manager', 'Address field manager for Magento 2', 'address attributes,address fields,attribute manager,fields manager', NULL, NULL, NULL, 'magento2-module', NULL, '1.3.0', '2018-04-25 06:23:41', NULL, NULL, NULL),
+('Swissup_Ajaxlayerednavigation', 'swissup/ajaxlayerednavigation', 'Advanced catalog filters with ajax and seo support', 'ajaxlayerednavigation,filters,layered navigation,seo layered navigation', NULL, NULL, NULL, 'magento2-module', NULL, '1.2.1', '2018-04-04 08:38:42', NULL, NULL, NULL),
+('Swissup_Ajaxpro', 'swissup/ajaxpro', 'Ajax functionality for Add to Cart, Add to Compare, and Add to Wishlist actions', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.2.7', '2018-05-10 06:58:57', NULL, NULL, NULL),
+('Swissup_Ajaxsearch', 'swissup/ajaxsearch', 'Advanced ajax search', 'ajaxsearch,search', NULL, NULL, NULL, 'magento2-module', NULL, '1.3.0', '2018-05-10 06:51:57', 'https://swissuplabs.com/', NULL, NULL),
+('Swissup_Akismet', 'swissup/akismet', 'Akismet integration', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.1', '2017-10-24 09:13:35', NULL, NULL, NULL),
+('Swissup_Askit', 'swissup/askit', 'Product, Category, Cms Page questions and comments', 'answers,comments,faq,page comments,product questions,questions', NULL, NULL, NULL, 'magento2-module', NULL, '1.2.14', '2018-03-29 08:30:43', 'https://swissuplabs.com/product-question-extension-for-magento-2.html', NULL, NULL),
+('Swissup_Attributepages', 'swissup/attributepages', 'Attribute Pages extension from Swissup', 'attribute page,attributepages,brand page', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.8', '2018-05-08 12:05:01', 'https://swissuplabs.com/attributes-and-brands-pages-for-magento-2.html', 'https://swissuplabs.com/subscription/customer/products/', NULL),
+('Swissup_Checkout', 'swissup/checkout', 'Dummy checkout module. It''s purpose is to add swissup menu and config sections.', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '0.0.1', '2017-01-20 08:31:32', NULL, NULL, NULL),
+('Swissup_CheckoutCart', 'swissup/checkout-cart', 'Magento 2 checkout cart', 'cart,checkout', NULL, NULL, NULL, 'magento2-module', NULL, '1.1.4', '2018-04-23 13:20:45', NULL, NULL, NULL),
+('Swissup_CheckoutFields', 'swissup/checkout-fields', 'Magento 2 Checkout Fields', 'checkout,fields', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.4', '2018-03-13 12:29:37', NULL, NULL, NULL),
+('Swissup_CheckoutSuccess', 'swissup/checkout-success', 'Magento 2 checkout success page', 'checkout,success page', NULL, NULL, NULL, 'magento2-module', NULL, '1.1.3', '2018-04-23 13:29:46', NULL, NULL, NULL),
+('Swissup_Command', 'swissup/command', 'Magento 2 module gives your possibility to run custom commands', NULL, NULL, NULL, NULL, 'magento2-module', NULL, 'dev-master', '2017-03-24 13:36:29', NULL, NULL, NULL),
+('Swissup_Core', 'swissup/core', 'Swissup core module. It''s purpose is to add menu and config placeholders', 'core,installer,module manager,notifier,popup messenger,swissup services', NULL, NULL, NULL, 'magento2-module', '1.4.7', '1.6.1', '2018-04-23 11:46:08', NULL, NULL, NULL),
+('Swissup_Countdowntimer', 'swissup/countdowntimer', 'Countdown timer widgets', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '0.9.0', '2016-04-18 14:31:28', NULL, NULL, NULL),
+('Swissup_CustomerFieldManager', 'swissup/customer-field-manager', 'Customer Field manager for Magento 2', 'attribute manager,customer attributes,customer fields,fields manager', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2018-04-25 06:21:37', NULL, NULL, NULL),
+('Swissup_Dailydeals', 'swissup/dailydeals', 'N/A', NULL, NULL, NULL, NULL, 'magento2-module', NULL, 'dev-master', '2016-03-02 07:58:42', NULL, NULL, NULL),
+('Swissup_DataMigration', 'swissup/data-migration', 'Data Migration for Swissup Labs modules', 'data migration,migration from m1 to m2', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2017-07-10 13:35:33', NULL, NULL, NULL),
+('Swissup_DeliveryDate', 'swissup/delivery-date', 'Magento 2 module gives your customers possibility to choose the delivery date', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.1.3', '2018-04-24 13:44:15', NULL, NULL, NULL),
+('Swissup_DockerizeMagento2', 'swissup/dockerize-magento2', 'Docker infrastructure definitions for Magento 2', NULL, NULL, NULL, NULL, 'magento2-component', NULL, 'dev-develop', '2018-03-01 15:39:18', NULL, NULL, NULL),
+('Swissup_Easybanner', 'swissup/easybanner', 'Magento banners and blocks', 'advertising,awesomebar,banner,block,easybanner,lightbox', NULL, NULL, NULL, 'magento2-module', NULL, '1.2.1', '2018-03-30 07:46:47', 'https://swissuplabs.com/magento-2-banners-and-custom-blocks-extension.html', 'https://swissuplabs.com/subscription/customer/products/', NULL),
+('Swissup_Easycatalogimg', 'swissup/easycatalogimg', 'Easy Catalog Images extension from Swissup', 'category thumbnail,easycatalogimages,subcategory listing', NULL, NULL, NULL, 'magento2-module', NULL, '1.2.0', '2018-03-23 15:35:30', 'https://swissuplabs.com/magento-2-easy-catalog-images.html', 'https://swissuplabs.com/subscription/customer/products/', NULL),
+('Swissup_Easyflags', 'swissup/easyflags', 'Module replaces default store switcher with flag images', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.1', '2017-01-30 08:51:19', NULL, NULL, NULL),
+('Swissup_EasySlide', 'swissup/easy-slide', 'Create and manage Magento sliders', 'easyslide,slider', NULL, NULL, NULL, 'magento2-module', NULL, '1.1.4', '2017-09-22 13:39:19', 'https://swissuplabs.com/magento-2-slider-extension.html', 'https://swissuplabs.com/subscription/customer/products/', NULL),
+('Swissup_Easytabs', 'swissup/easytabs', 'Easy Tabs extension from Swissup', 'easytabs,homepage tabs,product tabs,tabs', NULL, NULL, NULL, 'magento2-module', NULL, '1.3.1', '2018-05-08 12:05:54', 'https://swissuplabs.com/product-tabs-magento-2-extension.html', 'https://swissuplabs.com/subscription/customer/products/', NULL),
+('Swissup_Email', 'swissup/email', 'Magento2 email providers integration (smtp, mandrill, amazon ses)', 'amazon ses,email,gmail,mandrill,sendmail,smtp', NULL, NULL, NULL, 'magento2-module', NULL, '0.1.2', '2016-11-01 15:33:37', NULL, NULL, NULL),
+('Swissup_Fblike', 'swissup/fblike', 'Facebook Like Button for Magento 2', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.1.2', '2018-05-10 06:51:05', NULL, NULL, NULL),
+('Swissup_FeaturedAttributes', 'swissup/featured-attributes', 'Featured attributes extension from Swissup', 'attributes on category page,featured attributes', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2018-03-22 13:52:24', NULL, 'https://github.com/swissup/featured-attributes', NULL),
+('Swissup_FieldManager', 'swissup/field-manager', 'Field manager for Magento 2', 'attribute manager,customer attributes,customer fields,fields manager', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2018-04-25 06:19:40', NULL, NULL, NULL),
+('Swissup_Firecheckout', 'swissup/firecheckout', 'Onestep checkout extension for Magento2', 'checkout,firecheckout,onestep checkout', NULL, NULL, NULL, 'magento2-module', NULL, '1.10.0', '2018-04-26 11:41:57', 'https://www.firecheckout.net/order', 'https://www.firecheckout.net/subscription/customer/products/', 'https://www.firecheckout.net/license/customer/identity/'),
+('Swissup_FirecheckoutIntegrations', 'swissup/firecheckout-integrations', 'Code for third-party modules that requires additional logic at firecheckout page', 'firecheckout', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2018-04-13 07:26:24', NULL, NULL, NULL),
+('Swissup_FontAwesome', 'swissup/font-awesome', 'FontAwesome for Magento2', 'font,font awesome,font-awesome,fontawesome,icons', NULL, NULL, NULL, 'magento2-module', '1.2.1', '1.2.1', '2017-05-29 11:38:38', NULL, NULL, NULL),
+('Swissup_Geoip', 'swissup/geoip', 'Magento 2 module for geo location detecting by ip', 'address detection,city,country,geoip,postcode', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.3', '2017-01-26 15:51:54', NULL, NULL, NULL),
+('Swissup_Highlight', 'swissup/highlight', 'Product listing widgets, ajax carousel with flexible filters', 'bestsellers,featured products,highlight,new products,onsale products,popular products,product listing,products carousel', NULL, NULL, NULL, 'magento2-module', NULL, '1.2.2', '2018-05-04 06:42:13', 'https://swissuplabs.com/magento-extensions/magento-custom-product-list-extension.html', 'https://swissuplabs.com/subscription/customer/products/', NULL),
+('Swissup_HoverGallery', 'swissup/hover-gallery', 'Product image hover gallery for Magento 2.x e-commerce', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2017-08-29 08:10:49', NULL, NULL, NULL),
+('Swissup_Instaframe', 'swissup/instaframe', 'Instagram feed widget', 'feed,instagram,social', NULL, NULL, NULL, 'magento2-module', NULL, '0.9.0', '2017-09-15 06:44:29', 'https://swissuplabs.com/', NULL, NULL),
+('Swissup_Lightboxpro', 'swissup/lightboxpro', 'Lightbox Pro module for Magento 2', 'lightbox,product image,zoom', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.2', '2018-05-10 06:50:18', NULL, NULL, NULL),
+('Swissup_Maintenance', 'swissup/maintenance', 'Maintenance store extension', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.1', '2017-01-12 13:33:58', NULL, NULL, NULL),
+('Swissup_Navigationpro', 'swissup/navigationpro', 'Create beautiful menus for Magento 2', 'amazon menu,megamenu,menu,navigation,sidebar menu', NULL, NULL, NULL, 'magento2-module', NULL, '1.4.1', '2018-05-08 12:06:38', NULL, NULL, NULL),
+('Swissup_Orderattachment', 'swissup/orderattachment', 'Order Attachment Magento 2 extension', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.1.1', '2018-04-13 09:09:06', NULL, NULL, NULL),
+('Swissup_ProLabels', 'swissup/pro-labels', 'Product labels and badges', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.23', '2018-05-10 06:49:39', NULL, NULL, NULL),
+('Swissup_QuantitySwitcher', 'swissup/quantity-switcher', 'Quantity Switcher extension for Magento 2.x e-commerce', 'quantity,switcher', NULL, NULL, NULL, 'magento2-module', NULL, 'dev-master', '2017-09-29 12:51:04', NULL, NULL, NULL),
+('Swissup_Recaptcha', 'swissup/recaptcha', 'Recaptcha for M2', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2016-09-12 07:58:25', NULL, NULL, NULL),
+('Swissup_Reviewreminder', 'swissup/reviewreminder', 'Review Reminder extension from Swissup', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.11', '2018-02-08 15:53:25', NULL, NULL, NULL),
+('Swissup_RichSnippets', 'swissup/rich-snippets', 'Structured data markup for Google''s crawlers', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.1.1', '2018-03-29 08:28:05', NULL, NULL, NULL),
+('Swissup_Rtl', 'swissup/rtl', 'Magento2 RTL detection', 'rtl', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2018-03-26 08:59:09', NULL, NULL, NULL),
+('Swissup_SeoCore', 'swissup/seo-core', 'SEO core module. It adds swissup menu and config sections.', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.1', '2018-01-29 12:49:18', NULL, NULL, NULL),
+('Swissup_SeoHtmlSitemap', 'swissup/seo-html-sitemap', 'Advanced HTML Sitemap for Magento 2.x e-commerce ', 'seo,sitemap', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2017-12-13 13:11:30', NULL, NULL, NULL),
+('Swissup_SeoPager', 'swissup/seo-pager', 'Improved Magento 2 pagination', 'better pagination,seo pagination', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.0', '2018-01-29 12:57:44', NULL, NULL, NULL),
+('Swissup_SeoTemplates', 'swissup/seo-templates', 'Generate product and category metadata for Magento 2.x', 'autogenerate metadata', NULL, NULL, NULL, 'magento2-module', NULL, 'dev-master', '2018-05-04 08:39:47', NULL, NULL, NULL),
+('Swissup_SeoUrls', 'swissup/seo-urls', 'Improved Magento 2 urls', 'better ursl,seo urls', NULL, NULL, NULL, 'magento2-module', NULL, '1.1.2', '2018-05-10 06:48:13', NULL, NULL, NULL),
+('Swissup_SlickCarousel', 'swissup/slick-carousel', 'the last carousel you''ll ever need for magento2', 'carousel,slick carousel,slider', NULL, NULL, NULL, 'magento2-module', '1.1.0', '1.1.3', '2018-05-04 06:41:36', NULL, NULL, NULL),
+('Swissup_SoldTogether', 'swissup/sold-together', 'Sold Together for Magento 2', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.2.6', '2018-05-10 06:49:04', NULL, NULL, NULL),
+('Swissup_SubscribeAtCheckout', 'swissup/subscribe-at-checkout', 'Subscribe to newsletter directly from checkout page', 'newsletter,subscribe,subscription', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.1', '2017-11-09 08:51:19', NULL, NULL, NULL),
+('Swissup_Subscription', 'swissup/subscription', 'SwissUpLabs Modules Subscription', NULL, NULL, NULL, NULL, 'subscription-plan', NULL, NULL, NULL, 'https://swissuplabs.com', 'https://swissuplabs.com/subscription/customer/products/', 'https://swissuplabs.com/license/customer/identity/'),
+('Swissup_SubscriptionChecker', 'swissup/subscription-checker', 'Client-side subscription validation', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.1.0', '2018-04-23 11:47:31', NULL, NULL, NULL),
+('Swissup_Suggestpage', 'swissup/suggestpage', 'The Magento 2 module Suggest Page gives your customers custom page, shown after product was added to shopping cart', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.1.0', '2017-08-21 11:48:41', NULL, NULL, NULL),
+('Swissup_Taxvat', 'swissup/taxvat', 'Magento 2 Checkout Tax VAT', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.0.4', '2017-11-21 07:49:30', NULL, NULL, NULL),
+('Swissup_Testimonials', 'swissup/testimonials', 'Testimonials extension from Swissup', 'reviews,testimonials', NULL, NULL, NULL, 'magento2-module', NULL, '1.0.10', '2018-03-29 11:10:13', 'https://swissuplabs.com/testimonials-for-magento-2.html', 'https://swissuplabs.com/subscription/customer/products/', NULL),
+('Swissup_Tfa', 'swissup/tfa', 'Two Factor Authentication Extension for Magento 2', NULL, NULL, NULL, NULL, 'magento2-module', NULL, 'dev-master', '2018-04-23 08:47:26', NULL, NULL, NULL),
+('Swissup_ThemeEditor', 'swissup/theme-editor', 'Theme styles editing extension from Swissup', NULL, NULL, NULL, NULL, 'magento2-module', '1.3.0', '1.4.2', '2018-03-29 08:14:34', NULL, NULL, NULL),
+('Swissup_ThemeEditorArgentoEssence', 'swissup/theme-editor-argento-essence', 'Theme styles for Argento Essence theme', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.2.5', '2018-03-29 08:06:03', NULL, NULL, NULL),
+('Swissup_ThemeEditorArgentoFlat', 'swissup/theme-editor-argento-flat', 'Theme styles for Argento Flat theme', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.2.5', '2018-03-29 08:06:54', NULL, NULL, NULL),
+('Swissup_ThemeEditorArgentoLuxury', 'swissup/theme-editor-argento-luxury', 'Theme styles for Argento Luxury theme', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.2.5', '2018-03-29 08:02:27', NULL, NULL, NULL),
+('Swissup_ThemeEditorArgentoMall', 'swissup/theme-editor-argento-mall', 'Theme styles for Argento Mall theme', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.2.5', '2018-03-29 08:08:01', NULL, NULL, NULL),
+('Swissup_ThemeEditorArgentoPure2', 'swissup/theme-editor-argento-pure2', 'Theme styles for Argento Pure2 theme', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.2.5', '2018-03-29 08:10:57', NULL, NULL, NULL),
+('Swissup_ThemeEditorArgentoStripes', 'swissup/theme-editor-argento-stripes', 'Theme styles for Argento Stripes theme', NULL, NULL, NULL, NULL, 'magento2-module', NULL, '1.2.5', '2018-03-29 08:12:29', NULL, NULL, NULL),
+('Swissup_ThemeEditorSwissupAbsolute', 'swissup/theme-editor-swissup-absolute', 'Theme styles for Swissup Absolute theme', NULL, NULL, NULL, NULL, 'magento2-module', '1.0.1', '1.0.1', '2017-06-23 08:53:58', NULL, NULL, NULL),
+('Swissup_ThemeFrontendAbsolute', 'swissup/theme-frontend-absolute', 'Absolute Theme for Magento 2', 'absolute,free theme,responsive template,responsive theme,template,theme', NULL, NULL, NULL, 'magento2-theme', '1.1.2', '1.1.2', '2017-06-23 08:52:23', 'https://swissuplabs.com/free-magento-2-theme-absolute.html', NULL, NULL),
+('Swissup_ThemeFrontendArgentoBlank', 'swissup/theme-frontend-argento-blank', 'Basic theme for all Argento themes', 'argento,blank,responsive template,responsive theme,template,theme', NULL, NULL, NULL, 'magento2-theme', NULL, '1.3.1', '2018-05-08 12:10:25', NULL, NULL, NULL),
+('Swissup_ThemeFrontendArgentoEssence', 'swissup/theme-frontend-argento-essence', 'Most advanced responsive theme for Magento', 'argento,essence,responsive template,responsive theme,template,theme', NULL, NULL, NULL, 'magento2-theme', NULL, '1.3.1', '2018-05-08 12:11:33', 'http://argentotheme.com/', 'https://argentotheme.com/downloadable/customer/products/', 'https://argentotheme.com/license/customer/activation/'),
+('Swissup_ThemeFrontendArgentoFlat', 'swissup/theme-frontend-argento-flat', 'Most advanced responsive theme for Magento', 'argento,flat,responsive template,responsive theme,template,theme', NULL, NULL, NULL, 'magento2-theme', NULL, '1.3.1', '2018-05-08 12:12:13', 'http://argentotheme.com/', 'https://argentotheme.com/downloadable/customer/products/', 'https://argentotheme.com/license/customer/activation/'),
+('Swissup_ThemeFrontendArgentoLuxury', 'swissup/theme-frontend-argento-luxury', 'Most advanced responsive theme for Magento', 'argento,luxury,responsive template,responsive theme,template,theme', NULL, NULL, NULL, 'magento2-theme', NULL, '1.3.1', '2018-05-08 12:12:46', 'http://argentotheme.com/', 'https://argentotheme.com/downloadable/customer/products/', 'https://argentotheme.com/license/customer/activation/'),
+('Swissup_ThemeFrontendArgentoMall', 'swissup/theme-frontend-argento-mall', 'Most advanced responsive theme for Magento', 'argento,mall,responsive template,responsive theme,template,theme', NULL, NULL, NULL, 'magento2-theme', NULL, '1.3.1', '2018-05-08 12:14:01', 'http://argentotheme.com/', 'https://argentotheme.com/downloadable/customer/products/', 'https://argentotheme.com/license/customer/activation/'),
+('Swissup_ThemeFrontendArgentoPure2', 'swissup/theme-frontend-argento-pure2', 'Most advanced responsive theme for Magento', 'argento,pure2,responsive template,responsive theme,template,theme', NULL, NULL, NULL, 'magento2-theme', NULL, '1.3.1', '2018-05-08 12:14:32', 'http://argentotheme.com/', 'https://argentotheme.com/downloadable/customer/products/', 'https://argentotheme.com/license/customer/activation/'),
+('Swissup_ThemeFrontendArgentoStripes', 'swissup/theme-frontend-argento-stripes', 'Most advanced responsive theme for Magento', 'argento,responsive template,responsive theme,stripes,template,theme', NULL, NULL, NULL, 'magento2-theme', NULL, '1.3.1', '2018-05-08 12:15:03', 'http://argentotheme.com/', 'https://argentotheme.com/downloadable/customer/products/', 'https://argentotheme.com/license/customer/activation/');
 
 -- --------------------------------------------------------
 
@@ -2326,8 +2437,7 @@ INSERT INTO `theme` (`theme_id`, `parent_id`, `theme_path`, `theme_title`, `prev
 (1, NULL, 'Magento/blank', 'Magento Blank', 'preview_image_5ad9a5316252a.jpeg', 1, 'frontend', 0, 'Magento/blank'),
 (2, 1, 'Magento/luma', 'Magento Luma', 'preview_image_5ad9a531cc02e.jpeg', 1, 'frontend', 0, 'Magento/luma'),
 (3, NULL, 'Magento/backend', 'Magento 2 backend', NULL, 1, 'adminhtml', 0, 'Magento/backend'),
-(13, 1, 'Solwin/freego', 'Solwin FreeGo', 'preview_image_5afbf3620a362.png', 0, 'frontend', 0, 'Solwin/freego'),
-(14, 13, 'Solwin/freego_child', 'Solwin FreeGo Child', 'preview_image_5afbf362d3d0e.png', 0, 'frontend', 0, 'Solwin/freego_child');
+(15, 2, 'Swissup/absolute', 'Absolute', 'preview_image_5afbfcb1289c1.png', 0, 'frontend', 0, 'Swissup/absolute');
 
 -- --------------------------------------------------------
 
@@ -2514,7 +2624,9 @@ INSERT INTO `ui_bookmark` (`bookmark_id`, `user_id`, `namespace`, `identifier`, 
 (1, 1, 'product_listing', 'default', 1, 'Default View', '{"views":{"default":{"label":"Default View","index":"default","editable":false,"data":{"columns":{"entity_id":{"visible":true,"sorting":"asc"},"name":{"visible":true,"sorting":false},"sku":{"visible":true,"sorting":false},"price":{"visible":true,"sorting":false},"websites":{"visible":true,"sorting":false},"qty":{"visible":true,"sorting":false},"short_description":{"visible":false,"sorting":false},"special_price":{"visible":false,"sorting":false},"cost":{"visible":false,"sorting":false},"weight":{"visible":false,"sorting":false},"meta_title":{"visible":false,"sorting":false},"meta_keyword":{"visible":false,"sorting":false},"meta_description":{"visible":false,"sorting":false},"url_key":{"visible":false,"sorting":false},"msrp":{"visible":false,"sorting":false},"touchscreen":{"visible":false,"sorting":false},"ids":{"visible":true,"sorting":false},"type_id":{"visible":true,"sorting":false},"attribute_set_id":{"visible":true,"sorting":false},"visibility":{"visible":true,"sorting":false},"status":{"visible":true,"sorting":false},"manufacturer":{"visible":false,"sorting":false},"color":{"visible":false,"sorting":false},"custom_design":{"visible":false,"sorting":false},"page_layout":{"visible":false,"sorting":false},"country_of_manufacture":{"visible":false,"sorting":false},"custom_layout":{"visible":false,"sorting":false},"gift_message_available":{"visible":false,"sorting":false},"tax_class_id":{"visible":false,"sorting":false},"core_hp":{"visible":true,"sorting":false},"size":{"visible":true,"sorting":false},"special_from_date":{"visible":false,"sorting":false},"special_to_date":{"visible":false,"sorting":false},"news_from_date":{"visible":false,"sorting":false},"news_to_date":{"visible":false,"sorting":false},"custom_design_from":{"visible":false,"sorting":false},"custom_design_to":{"visible":false,"sorting":false},"actions":{"visible":true,"sorting":false},"thumbnail":{"visible":true,"sorting":false}},"filters":{"applied":{"placeholder":true}},"displayMode":"grid","paging":{"options":{"20":{"value":20,"label":20},"30":{"value":30,"label":30},"50":{"value":50,"label":50},"100":{"value":100,"label":100},"200":{"value":200,"label":200}},"value":20},"positions":{"ids":0,"entity_id":1,"thumbnail":2,"name":3,"type_id":4,"attribute_set_id":5,"sku":6,"price":7,"qty":8,"visibility":9,"status":10,"websites":11,"short_description":12,"special_price":13,"special_from_date":14,"special_to_date":15,"cost":16,"weight":17,"manufacturer":18,"meta_title":19,"meta_keyword":20,"meta_description":21,"color":22,"news_from_date":23,"news_to_date":24,"custom_design":25,"custom_design_from":26,"custom_design_to":27,"page_layout":28,"country_of_manufacture":29,"custom_layout":30,"url_key":31,"msrp":32,"gift_message_available":33,"tax_class_id":34,"touchscreen":35,"core_hp":36,"size":37,"actions":38}},"value":"Default View"}}}', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (2, 1, 'product_listing', 'current', 0, NULL, '{"current":{"columns":{"entity_id":{"visible":true,"sorting":"asc"},"name":{"visible":true,"sorting":false},"sku":{"visible":true,"sorting":false},"price":{"visible":true,"sorting":false},"websites":{"visible":true,"sorting":false},"qty":{"visible":true,"sorting":false},"short_description":{"visible":false,"sorting":false},"special_price":{"visible":false,"sorting":false},"cost":{"visible":false,"sorting":false},"weight":{"visible":false,"sorting":false},"meta_title":{"visible":false,"sorting":false},"meta_keyword":{"visible":false,"sorting":false},"meta_description":{"visible":false,"sorting":false},"url_key":{"visible":false,"sorting":false},"msrp":{"visible":false,"sorting":false},"touchscreen":{"visible":false,"sorting":false},"ids":{"visible":true,"sorting":false},"type_id":{"visible":true,"sorting":false},"attribute_set_id":{"visible":true,"sorting":false},"visibility":{"visible":true,"sorting":false},"status":{"visible":true,"sorting":false},"manufacturer":{"visible":false,"sorting":false},"color":{"visible":false,"sorting":false},"custom_design":{"visible":false,"sorting":false},"page_layout":{"visible":false,"sorting":false},"country_of_manufacture":{"visible":false,"sorting":false},"custom_layout":{"visible":false,"sorting":false},"gift_message_available":{"visible":false,"sorting":false},"tax_class_id":{"visible":false,"sorting":false},"core_hp":{"visible":true,"sorting":false},"size":{"visible":true,"sorting":false},"special_from_date":{"visible":false,"sorting":false},"special_to_date":{"visible":false,"sorting":false},"news_from_date":{"visible":false,"sorting":false},"news_to_date":{"visible":false,"sorting":false},"custom_design_from":{"visible":false,"sorting":false},"custom_design_to":{"visible":false,"sorting":false},"actions":{"visible":true,"sorting":false},"thumbnail":{"visible":true,"sorting":false}},"filters":{"applied":{"placeholder":true}},"displayMode":"grid","paging":{"options":{"20":{"value":20,"label":20},"30":{"value":30,"label":30},"50":{"value":50,"label":50},"100":{"value":100,"label":100},"200":{"value":200,"label":200}},"value":20},"positions":{"ids":0,"entity_id":1,"thumbnail":2,"name":3,"type_id":4,"attribute_set_id":5,"sku":6,"price":7,"qty":8,"visibility":9,"status":10,"websites":11,"short_description":12,"special_price":13,"special_from_date":14,"special_to_date":15,"cost":16,"weight":17,"manufacturer":18,"meta_title":19,"meta_keyword":20,"meta_description":21,"color":22,"news_from_date":23,"news_to_date":24,"custom_design":25,"custom_design_from":26,"custom_design_to":27,"page_layout":28,"country_of_manufacture":29,"custom_layout":30,"url_key":31,"msrp":32,"gift_message_available":33,"tax_class_id":34,"touchscreen":35,"core_hp":36,"size":37,"actions":38}}}', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (3, 1, 'design_config_listing', 'default', 1, 'Default View', '{"views":{"default":{"label":"Default View","index":"default","editable":false,"data":{"filters":{"applied":{"placeholder":true}},"columns":{"theme_theme_id":{"visible":true,"sorting":false},"store_website_id":{"visible":true,"sorting":false},"store_group_id":{"visible":true,"sorting":false},"store_id":{"visible":true,"sorting":false},"actions":{"visible":true,"sorting":false},"default":{"visible":true,"sorting":false}},"displayMode":"grid","paging":{"options":{"20":{"value":20,"label":20},"30":{"value":30,"label":30},"50":{"value":50,"label":50},"100":{"value":100,"label":100},"200":{"value":200,"label":200}},"value":20},"positions":{"default":0,"store_website_id":1,"store_group_id":2,"store_id":3,"theme_theme_id":4,"actions":5}},"value":"Default View"}}}', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(4, 1, 'design_config_listing', 'current', 0, NULL, '{"current":{"filters":{"applied":{"placeholder":true}},"columns":{"theme_theme_id":{"visible":true,"sorting":false},"store_website_id":{"visible":true,"sorting":false},"store_group_id":{"visible":true,"sorting":false},"store_id":{"visible":true,"sorting":false},"actions":{"visible":true,"sorting":false},"default":{"visible":true,"sorting":false}},"displayMode":"grid","paging":{"options":{"20":{"value":20,"label":20},"30":{"value":30,"label":30},"50":{"value":50,"label":50},"100":{"value":100,"label":100},"200":{"value":200,"label":200}},"value":20},"positions":{"default":0,"store_website_id":1,"store_group_id":2,"store_id":3,"theme_theme_id":4,"actions":5}}}', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(4, 1, 'design_config_listing', 'current', 0, NULL, '{"current":{"filters":{"applied":{"placeholder":true}},"columns":{"theme_theme_id":{"visible":true,"sorting":false},"store_website_id":{"visible":true,"sorting":false},"store_group_id":{"visible":true,"sorting":false},"store_id":{"visible":true,"sorting":false},"actions":{"visible":true,"sorting":false},"default":{"visible":true,"sorting":false}},"displayMode":"grid","paging":{"options":{"20":{"value":20,"label":20},"30":{"value":30,"label":30},"50":{"value":50,"label":50},"100":{"value":100,"label":100},"200":{"value":200,"label":200}},"value":20},"positions":{"default":0,"store_website_id":1,"store_group_id":2,"store_id":3,"theme_theme_id":4,"actions":5}}}', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(5, 1, 'swissup_installer_listing', 'default', 1, 'Default View', '{"views":{"default":{"label":"Default View","index":"default","editable":false,"data":{"filters":{"applied":{"placeholder":true}},"columns":{"release_date":{"visible":true,"sorting":"desc"},"actions":{"visible":true,"sorting":false},"code":{"visible":true,"sorting":false},"version":{"visible":true,"sorting":false}},"paging":{"options":{"20":{"value":20,"label":20},"30":{"value":30,"label":30},"50":{"value":50,"label":50},"100":{"value":100,"label":100},"200":{"value":200,"label":200}},"value":20},"positions":{"code":0,"version":1,"release_date":2,"actions":3},"displayMode":"grid","search":{"value":""}},"value":"Default View"}}}', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(6, 1, 'swissup_installer_listing', 'current', 0, NULL, '{"current":{"filters":{"applied":{"placeholder":true}},"columns":{"release_date":{"visible":true,"sorting":"desc"},"actions":{"visible":true,"sorting":false},"code":{"visible":true,"sorting":false},"version":{"visible":true,"sorting":false}},"paging":{"options":{"20":{"value":20,"label":20},"30":{"value":30,"label":30},"50":{"value":50,"label":50},"100":{"value":100,"label":100},"200":{"value":200,"label":200}},"value":20},"positions":{"code":0,"version":1,"release_date":2,"actions":3},"displayMode":"grid","search":{"value":""}}}', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -3461,6 +3573,13 @@ ALTER TABLE `store_website`
   ADD KEY `STORE_WEBSITE_DEFAULT_GROUP_ID` (`default_group_id`);
 
 --
+-- Indexes for table `swissup_core_module`
+--
+ALTER TABLE `swissup_core_module`
+  ADD PRIMARY KEY (`code`);
+ALTER TABLE `swissup_core_module` ADD FULLTEXT KEY `SWISSUP_CORE_MODULE_CODE_NAME_DESCRIPTION_KEYWORDS` (`code`,`name`,`description`,`keywords`);
+
+--
 -- Indexes for table `tax_calculation`
 --
 ALTER TABLE `tax_calculation`
@@ -3702,17 +3821,17 @@ ALTER TABLE `wishlist_item_option`
 -- AUTO_INCREMENT for table `report_viewed_product_aggregated_monthly`
 --
 ALTER TABLE `report_viewed_product_aggregated_monthly`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Id', AUTO_INCREMENT=24;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Id', AUTO_INCREMENT=26;
 --
 -- AUTO_INCREMENT for table `report_viewed_product_aggregated_yearly`
 --
 ALTER TABLE `report_viewed_product_aggregated_yearly`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Id', AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Id', AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT for table `report_viewed_product_index`
 --
 ALTER TABLE `report_viewed_product_index`
-  MODIFY `index_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Index Id', AUTO_INCREMENT=96;
+  MODIFY `index_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Index Id', AUTO_INCREMENT=99;
 --
 -- AUTO_INCREMENT for table `review`
 --
@@ -3932,7 +4051,7 @@ ALTER TABLE `sales_shipping_aggregated_order`
 -- AUTO_INCREMENT for table `search_query`
 --
 ALTER TABLE `search_query`
-  MODIFY `query_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Query ID', AUTO_INCREMENT=255;
+  MODIFY `query_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Query ID', AUTO_INCREMENT=259;
 --
 -- AUTO_INCREMENT for table `search_synonyms`
 --
@@ -4072,7 +4191,7 @@ ALTER TABLE `temando_shipment`
 -- AUTO_INCREMENT for table `theme`
 --
 ALTER TABLE `theme`
-  MODIFY `theme_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Theme identifier', AUTO_INCREMENT=15;
+  MODIFY `theme_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Theme identifier', AUTO_INCREMENT=18;
 --
 -- AUTO_INCREMENT for table `theme_file`
 --
@@ -4097,7 +4216,7 @@ ALTER TABLE `tutorial_simplenews`
 -- AUTO_INCREMENT for table `ui_bookmark`
 --
 ALTER TABLE `ui_bookmark`
-  MODIFY `bookmark_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Bookmark identifier', AUTO_INCREMENT=5;
+  MODIFY `bookmark_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Bookmark identifier', AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `url_rewrite`
 --

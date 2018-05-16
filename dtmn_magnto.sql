@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2018 at 11:14 AM
+-- Generation Time: May 16, 2018 at 01:24 PM
 -- Server version: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
@@ -78,6 +78,7 @@ CREATE TABLE `admin_system_messages` (
 --
 
 INSERT INTO `admin_system_messages` (`identity`, `severity`, `created_at`) VALUES
+('3c5a51dbe9feac32c1f6eef4200f26a0', 1, '2018-05-16 11:17:15'),
 ('b5b5de0a0651791ec61cdd9636a7e87b', 2, '2018-04-27 11:58:17');
 
 -- --------------------------------------------------------
@@ -114,7 +115,7 @@ CREATE TABLE `admin_user` (
 --
 
 INSERT INTO `admin_user` (`user_id`, `firstname`, `lastname`, `email`, `username`, `password`, `created`, `modified`, `logdate`, `lognum`, `reload_acl_flag`, `is_active`, `extra`, `rp_token`, `rp_token_created_at`, `interface_locale`, `failures_num`, `first_failure`, `lock_expires`, `refresh_token`) VALUES
-(1, 'Shesh', 'Shesh', 'shesh.kumar@datman.in', 'Shesh', '2c83e4e73a9e3b0f8f54b86ec5d65f2d0123c7bacc5fd6260041ae0387fe2145:wMgMjBM4pSLzi0qx1p5zc5722FzYd5yp:1', '2018-04-20 03:04:09', '2018-05-16 08:54:48', '2018-05-16 08:54:48', 88, 0, 1, '{"configState":{"general_country":"1","general_region":"1","general_locale":"0","general_store_information":"1","general_single_store_mode":"0","currency_options":"1","currency_yahoofinance":"1","currency_fixerio":"1","currency_webservicex":"1","currency_import":"1","trans_email_ident_general":"1","trans_email_ident_sales":"1","trans_email_ident_support":"1","trans_email_ident_custom1":"1","trans_email_ident_custom2":"1","contact_contact":"1","contact_email":"1","newrelicreporting_general":"1","cms_wysiwyg":"1","web_default":"1","web_cookie":"1","web_session":"1","web_browser_capabilities":"1","web_seo":"0","web_unsecure":"1","web_secure":"1","web_url":"0","connector_configuration_dynamic_content":"1","connector_configuration_dynamic_content_style":"1","connector_configuration_data_fields":"1","connector_configuration_tracking":"1","connector_configuration_transactional_data":"1","connector_configuration_abandoned_carts":"1","connector_configuration_catalog_sync":"1","connector_configuration_customer_addressbook":"1","catalog_frontend":"1","catalog_review":"1","catalog_productalert":"0","catalog_productalert_cron":"0","catalog_recently_products":"1","catalog_search":"1","catalog_navigation":"1","catalog_fields_masks":"0","catalog_placeholder":"0","catalog_product_video":"1","catalog_layered_navigation":"1","catalog_seo":"1","catalog_downloadable":"1","catalog_custom_options":"0","cataloginventory_options":"1","cataloginventory_item_options":"1","catalog_price":"1","webapi_soap":"0","webapi_webapisecurity":"1","cpanelsection_listpagegroup":"0","cpanelsection_viewpagegroup":"0","cpanelsection_contactpagegroup":"0","cpanelsection_headergroup":"1","cpanelsection_footergroup":"0","wishlist_general":"1","wishlist_email":"1","wishlist_wishlist_link":"1","scrollsection_scrollgroup":"1","outofstock_product_outofstockproduct":"1","productslider_general":"1","productslider_slider_settings":"0","jnext_mega_config_general":"1","jnext_mega_config_category_labels":"1"}}', NULL, NULL, 'en_US', 0, NULL, NULL, NULL),
+(1, 'Shesh', 'Shesh', 'shesh.kumar@datman.in', 'Shesh', '2c83e4e73a9e3b0f8f54b86ec5d65f2d0123c7bacc5fd6260041ae0387fe2145:wMgMjBM4pSLzi0qx1p5zc5722FzYd5yp:1', '2018-04-20 03:04:09', '2018-05-16 10:59:16', '2018-05-16 10:59:16', 91, 0, 1, '{"configState":{"general_country":"1","general_region":"1","general_locale":"0","general_store_information":"1","general_single_store_mode":"0","currency_options":"1","currency_yahoofinance":"1","currency_fixerio":"1","currency_webservicex":"1","currency_import":"1","trans_email_ident_general":"1","trans_email_ident_sales":"1","trans_email_ident_support":"1","trans_email_ident_custom1":"1","trans_email_ident_custom2":"1","contact_contact":"1","contact_email":"1","newrelicreporting_general":"1","cms_wysiwyg":"1","web_default":"1","web_cookie":"1","web_session":"1","web_browser_capabilities":"1","web_seo":"0","web_unsecure":"1","web_secure":"1","web_url":"0","connector_configuration_dynamic_content":"1","connector_configuration_dynamic_content_style":"1","connector_configuration_data_fields":"1","connector_configuration_tracking":"1","connector_configuration_transactional_data":"1","connector_configuration_abandoned_carts":"1","connector_configuration_catalog_sync":"1","connector_configuration_customer_addressbook":"1","catalog_frontend":"1","catalog_review":"1","catalog_productalert":"0","catalog_productalert_cron":"0","catalog_recently_products":"1","catalog_search":"1","catalog_navigation":"1","catalog_fields_masks":"0","catalog_placeholder":"0","catalog_product_video":"1","catalog_layered_navigation":"1","catalog_seo":"1","catalog_downloadable":"1","catalog_custom_options":"0","cataloginventory_options":"1","cataloginventory_item_options":"1","catalog_price":"1","webapi_soap":"0","webapi_webapisecurity":"1","cpanelsection_listpagegroup":"0","cpanelsection_viewpagegroup":"0","cpanelsection_contactpagegroup":"0","cpanelsection_headergroup":"1","cpanelsection_footergroup":"0","wishlist_general":"1","wishlist_email":"1","wishlist_wishlist_link":"1","scrollsection_scrollgroup":"1","outofstock_product_outofstockproduct":"1","productslider_general":"1","productslider_slider_settings":"0","jnext_mega_config_general":"1","jnext_mega_config_category_labels":"1","swissup_absolute_background":"1","swissup_absolute_footer":"1","swissup_absolute_navigation":"1","swissup_absolute_fonts":"1","swissup_core_notification":"1"}}', NULL, NULL, 'en_US', 0, NULL, NULL, NULL),
 (2, 'Brajesh', 'Kumar', 'brajeshkumar@gmail.com', 'Brajesh', '09edd2d35bbb1e85b33fd6ba199ad0c081ccdfd47a439d505016898cb2c7aae6:K4TCZW5n7c1fXVx3KjnpFFpxeJgPDJYU:1', '2018-04-25 10:41:29', '2018-04-25 10:48:18', '2018-04-25 10:48:18', 1, 0, 1, 'null', NULL, NULL, 'hi_IN', 0, NULL, NULL, NULL),
 (3, 'developer_1', 'technodevlab', 'shesh@technodevlab.com', 'Developer_1', '6b6daa7947f9612fa729f7608a7759baca3165557d7dbd1d3817d7baf10ffe80:U58NvmVJ57zKJDOfEIyP4NnvUQzBh8tE:1', '2018-04-25 10:44:43', '2018-05-07 09:20:16', '2018-04-25 11:21:47', 2, 0, 1, 'null', NULL, NULL, 'hi_IN', 1, '2018-05-07 09:20:16', NULL, NULL);
 
@@ -145,7 +146,10 @@ INSERT INTO `admin_user_session` (`id`, `session_id`, `user_id`, `status`, `crea
 (5, 'rriohnas9oamhc2ih5cpd585p3', 1, 0, '2018-05-14 11:11:52', '2018-05-14 12:11:28', '::1'),
 (6, 'lk42vk6vq7hsu8j25p664bsjp2', 1, 0, '2018-05-14 12:43:49', '2018-05-14 12:44:11', '::1'),
 (7, '9rnjf5l97ncnbjlcainpc1r566', 1, 0, '2018-05-16 08:34:15', '2018-05-16 08:43:14', '::1'),
-(8, 'a3jusf2n4rkb4oka9m1b2is0q4', 1, 1, '2018-05-16 08:54:50', '2018-05-16 09:05:03', '::1');
+(8, 'a3jusf2n4rkb4oka9m1b2is0q4', 1, 1, '2018-05-16 08:54:50', '2018-05-16 09:14:54', '::1'),
+(9, 'gscl0u0n53u3l2b8ptajl64b76', 1, 1, '2018-05-16 09:49:29', '2018-05-16 10:11:43', '::1'),
+(10, 'ip3g7e9tabeqem2pgugb11h8g3', 1, 1, '2018-05-16 10:34:14', '2018-05-16 10:34:45', '::1'),
+(11, 'dt9ilvor3gbuh92lf83443tl06', 1, 1, '2018-05-16 10:59:17', '2018-05-16 11:24:01', '::1');
 
 -- --------------------------------------------------------
 
@@ -175,7 +179,7 @@ INSERT INTO `authorization_role` (`role_id`, `parent_id`, `tree_level`, `sort_or
 (24, 0, 1, 0, 'G', 0, '2', 'Developer'),
 (25, 23, 2, 0, 'U', 2, '2', 'Brajesh'),
 (29, 24, 2, 0, 'U', 3, '2', 'developer_1'),
-(144, 0, 1, 0, 'U', 135, '1', '1135');
+(150, 0, 1, 0, 'U', 141, '1', '1141');
 
 -- --------------------------------------------------------
 
@@ -651,238 +655,250 @@ INSERT INTO `authorization_rule` (`rule_id`, `role_id`, `resource_id`, `privileg
 (13846, 23, 'Magento_Variable::variable', NULL, 'allow'),
 (13847, 23, 'Magento_EncryptionKey::crypt_key', NULL, 'deny'),
 (13848, 23, 'Magento_Backend::global_search', NULL, 'allow'),
-(95004, 144, 'Magento_Backend::all', NULL, 'deny'),
-(95005, 144, 'Magento_Backend::admin', NULL, 'allow'),
-(95006, 144, 'Magento_Backend::dashboard', NULL, 'deny'),
-(95007, 144, 'Trive_Core::admin', NULL, 'deny'),
-(95008, 144, 'Trive_Revo::productslider', NULL, 'deny'),
-(95009, 144, 'Trive_Revo::manage_sliders', NULL, 'deny'),
-(95010, 144, 'Trive_Revo::config', NULL, 'deny'),
-(95011, 144, 'Magento_Analytics::analytics', NULL, 'deny'),
-(95012, 144, 'Magento_Analytics::analytics_api', NULL, 'deny'),
-(95013, 144, 'Magento_Sales::sales', NULL, 'deny'),
-(95014, 144, 'Magento_Sales::sales_operation', NULL, 'deny'),
-(95015, 144, 'Magento_Sales::sales_order', NULL, 'deny'),
-(95016, 144, 'Magento_Sales::actions', NULL, 'deny'),
-(95017, 144, 'Magento_Sales::create', NULL, 'deny'),
-(95018, 144, 'Magento_Sales::actions_view', NULL, 'deny'),
-(95019, 144, 'Magento_Sales::email', NULL, 'deny'),
-(95020, 144, 'Magento_Sales::reorder', NULL, 'deny'),
-(95021, 144, 'Magento_Sales::actions_edit', NULL, 'deny'),
-(95022, 144, 'Magento_Sales::cancel', NULL, 'deny'),
-(95023, 144, 'Magento_Sales::review_payment', NULL, 'deny'),
-(95024, 144, 'Magento_Sales::capture', NULL, 'deny'),
-(95025, 144, 'Magento_Sales::invoice', NULL, 'deny'),
-(95026, 144, 'Magento_Sales::creditmemo', NULL, 'deny'),
-(95027, 144, 'Magento_Sales::hold', NULL, 'deny'),
-(95028, 144, 'Magento_Sales::unhold', NULL, 'deny'),
-(95029, 144, 'Magento_Sales::ship', NULL, 'deny'),
-(95030, 144, 'Magento_Sales::comment', NULL, 'deny'),
-(95031, 144, 'Magento_Sales::emails', NULL, 'deny'),
-(95032, 144, 'Magento_Sales::sales_invoice', NULL, 'deny'),
-(95033, 144, 'Magento_Sales::shipment', NULL, 'deny'),
-(95034, 144, 'Temando_Shipping::dispatches', NULL, 'deny'),
-(95035, 144, 'Magento_Sales::sales_creditmemo', NULL, 'deny'),
-(95036, 144, 'Magento_Paypal::billing_agreement', NULL, 'deny'),
-(95037, 144, 'Magento_Paypal::billing_agreement_actions', NULL, 'deny'),
-(95038, 144, 'Magento_Paypal::billing_agreement_actions_view', NULL, 'deny'),
-(95039, 144, 'Magento_Paypal::actions_manage', NULL, 'deny'),
-(95040, 144, 'Magento_Paypal::use', NULL, 'deny'),
-(95041, 144, 'Magento_Sales::transactions', NULL, 'deny'),
-(95042, 144, 'Magento_Sales::transactions_fetch', NULL, 'deny'),
-(95043, 144, 'Magento_Catalog::catalog', NULL, 'allow'),
-(95044, 144, 'Magento_Catalog::catalog_inventory', NULL, 'allow'),
-(95045, 144, 'Magento_Catalog::products', NULL, 'allow'),
-(95046, 144, 'Magento_Catalog::categories', NULL, 'deny'),
-(95047, 144, 'Magento_Customer::customer', NULL, 'deny'),
-(95048, 144, 'Magento_Customer::manage', NULL, 'deny'),
-(95049, 144, 'Magento_Customer::online', NULL, 'deny'),
-(95050, 144, 'Magento_Cart::cart', NULL, 'deny'),
-(95051, 144, 'Magento_Cart::manage', NULL, 'deny'),
-(95052, 144, 'Magento_Backend::myaccount', NULL, 'deny'),
-(95053, 144, 'Magento_Backend::marketing', NULL, 'deny'),
-(95054, 144, 'Magento_CatalogRule::promo', NULL, 'deny'),
-(95055, 144, 'Magento_CatalogRule::promo_catalog', NULL, 'deny'),
-(95056, 144, 'Magento_SalesRule::quote', NULL, 'deny'),
-(95057, 144, 'Dotdigitalgroup_Email::automation', NULL, 'deny'),
-(95058, 144, 'Dotdigitalgroup_Email::automation_studio', NULL, 'deny'),
-(95059, 144, 'Dotdigitalgroup_Email::exclusion_rules', NULL, 'deny'),
-(95060, 144, 'Magento_Backend::marketing_communications', NULL, 'deny'),
-(95061, 144, 'Magento_Email::template', NULL, 'deny'),
-(95062, 144, 'Magento_Newsletter::template', NULL, 'deny'),
-(95063, 144, 'Magento_Newsletter::queue', NULL, 'deny'),
-(95064, 144, 'Magento_Newsletter::subscriber', NULL, 'deny'),
-(95065, 144, 'Magento_Backend::marketing_seo', NULL, 'deny'),
-(95066, 144, 'Magento_Search::search', NULL, 'deny'),
-(95067, 144, 'Magento_Search::synonyms', NULL, 'deny'),
-(95068, 144, 'Magento_UrlRewrite::urlrewrite', NULL, 'deny'),
-(95069, 144, 'Magento_Sitemap::sitemap', NULL, 'deny'),
-(95070, 144, 'Magento_Backend::marketing_user_content', NULL, 'deny'),
-(95071, 144, 'Magento_Review::reviews_all', NULL, 'deny'),
-(95072, 144, 'Magento_Review::pending', NULL, 'deny'),
-(95073, 144, 'Magento_Backend::content', NULL, 'deny'),
-(95074, 144, 'Magento_Backend::content_elements', NULL, 'deny'),
-(95075, 144, 'Magento_Cms::page', NULL, 'deny'),
-(95076, 144, 'Magento_Cms::save', NULL, 'deny'),
-(95077, 144, 'Magento_Cms::page_delete', NULL, 'deny'),
-(95078, 144, 'Magento_Cms::block', NULL, 'deny'),
-(95079, 144, 'Magento_Widget::widget_instance', NULL, 'deny'),
-(95080, 144, 'Magento_Cms::media_gallery', NULL, 'deny'),
-(95081, 144, 'Magento_Backend::design', NULL, 'deny'),
-(95082, 144, 'Magento_Theme::theme', NULL, 'deny'),
-(95083, 144, 'Magento_Backend::schedule', NULL, 'deny'),
-(95084, 144, 'Magento_Backend::content_translation', NULL, 'deny'),
-(95085, 144, 'Magento_Reports::report', NULL, 'deny'),
-(95086, 144, 'Dotdigitalgroup_Email::reports', NULL, 'deny'),
-(95087, 144, 'Dotdigitalgroup_Email::contact', NULL, 'deny'),
-(95088, 144, 'Dotdigitalgroup_Email::order', NULL, 'deny'),
-(95089, 144, 'Dotdigitalgroup_Email::review', NULL, 'deny'),
-(95090, 144, 'Dotdigitalgroup_Email::wishlist', NULL, 'deny'),
-(95091, 144, 'Dotdigitalgroup_Email::catalog', NULL, 'deny'),
-(95092, 144, 'Dotdigitalgroup_Email::importer', NULL, 'deny'),
-(95093, 144, 'Dotdigitalgroup_Email::campaign', NULL, 'deny'),
-(95094, 144, 'Dotdigitalgroup_Email::cron', NULL, 'deny'),
-(95095, 144, 'Dotdigitalgroup_Email::dashboard', NULL, 'deny'),
-(95096, 144, 'Dotdigitalgroup_Email::automation_enrollment', NULL, 'deny'),
-(95097, 144, 'Dotdigitalgroup_Email::logviewer', NULL, 'deny'),
-(95098, 144, 'Magento_Reports::report_marketing', NULL, 'deny'),
-(95099, 144, 'Magento_Reports::shopcart', NULL, 'deny'),
-(95100, 144, 'Magento_Reports::product', NULL, 'deny'),
-(95101, 144, 'Magento_Reports::abandoned', NULL, 'deny'),
-(95102, 144, 'Magento_Reports::report_search', NULL, 'deny'),
-(95103, 144, 'Magento_Newsletter::problem', NULL, 'deny'),
-(95104, 144, 'Magento_Reports::review', NULL, 'deny'),
-(95105, 144, 'Magento_Reports::review_customer', NULL, 'deny'),
-(95106, 144, 'Magento_Reports::review_product', NULL, 'deny'),
-(95107, 144, 'Magento_Reports::salesroot', NULL, 'deny'),
-(95108, 144, 'Magento_Reports::salesroot_sales', NULL, 'deny'),
-(95109, 144, 'Magento_Reports::tax', NULL, 'deny'),
-(95110, 144, 'Magento_Reports::invoiced', NULL, 'deny'),
-(95111, 144, 'Magento_Reports::shipping', NULL, 'deny'),
-(95112, 144, 'Magento_Reports::refunded', NULL, 'deny'),
-(95113, 144, 'Magento_Reports::coupons', NULL, 'deny'),
-(95114, 144, 'Magento_Paypal::paypal_settlement_reports', NULL, 'deny'),
-(95115, 144, 'Magento_Paypal::paypal_settlement_reports_view', NULL, 'deny'),
-(95116, 144, 'Magento_Paypal::fetch', NULL, 'deny'),
-(95117, 144, 'Magento_Braintree::settlement_report', NULL, 'deny'),
-(95118, 144, 'Magento_Reports::customers', NULL, 'deny'),
-(95119, 144, 'Magento_Reports::totals', NULL, 'deny'),
-(95120, 144, 'Magento_Reports::customers_orders', NULL, 'deny'),
-(95121, 144, 'Magento_Reports::accounts', NULL, 'deny'),
-(95122, 144, 'Magento_Reports::report_products', NULL, 'deny'),
-(95123, 144, 'Magento_Reports::viewed', NULL, 'deny'),
-(95124, 144, 'Magento_Reports::bestsellers', NULL, 'deny'),
-(95125, 144, 'Magento_Reports::lowstock', NULL, 'deny'),
-(95126, 144, 'Magento_Reports::sold', NULL, 'deny'),
-(95127, 144, 'Magento_Reports::downloads', NULL, 'deny'),
-(95128, 144, 'Magento_Reports::statistics', NULL, 'deny'),
-(95129, 144, 'Magento_Reports::statistics_refresh', NULL, 'deny'),
-(95130, 144, 'Magento_Analytics::business_intelligence', NULL, 'deny'),
-(95131, 144, 'Magento_Analytics::advanced_reporting', NULL, 'deny'),
-(95132, 144, 'Magento_Analytics::bi_essentials', NULL, 'deny'),
-(95133, 144, 'Magento_Backend::stores', NULL, 'allow'),
-(95134, 144, 'Magento_Backend::stores_settings', NULL, 'allow'),
-(95135, 144, 'Magento_Backend::store', NULL, 'allow'),
-(95136, 144, 'Magento_Config::config', NULL, 'deny'),
-(95137, 144, 'Jnext_Megamenu::jnext_mega_config', NULL, 'deny'),
-(95138, 144, 'Magento_Cms::config_cms', NULL, 'deny'),
-(95139, 144, 'Magento_Sales::fraud_protection', NULL, 'deny'),
-(95140, 144, 'Magento_GoogleAnalytics::google', NULL, 'deny'),
-(95141, 144, 'Magento_Newsletter::newsletter', NULL, 'deny'),
-(95142, 144, 'Magento_Downloadable::downloadable', NULL, 'deny'),
-(95143, 144, 'Magento_Contact::contact', NULL, 'deny'),
-(95144, 144, 'Magento_CatalogInventory::cataloginventory', NULL, 'deny'),
-(95145, 144, 'Magento_Payment::payment_services', NULL, 'deny'),
-(95146, 144, 'Magento_Payment::payment', NULL, 'deny'),
-(95147, 144, 'Magento_Catalog::config_catalog', NULL, 'deny'),
-(95148, 144, 'Magento_CatalogSearch::config_catalog_search', NULL, 'deny'),
-(95149, 144, 'Dotdigitalgroup_Email::config', NULL, 'deny'),
-(95150, 144, 'Magento_Shipping::carriers', NULL, 'deny'),
-(95151, 144, 'Magento_Shipping::shipping_policy', NULL, 'deny'),
-(95152, 144, 'Magento_Shipping::config_shipping', NULL, 'deny'),
-(95153, 144, 'Magento_Multishipping::config_multishipping', NULL, 'deny'),
-(95154, 144, 'Magento_Config::config_general', NULL, 'deny'),
-(95155, 144, 'Magento_Config::web', NULL, 'deny'),
-(95156, 144, 'Magento_Config::config_design', NULL, 'deny'),
-(95157, 144, 'Magento_Paypal::paypal', NULL, 'deny'),
-(95158, 144, 'Magento_Customer::config_customer', NULL, 'deny'),
-(95159, 144, 'Magento_Tax::config_tax', NULL, 'deny'),
-(95160, 144, 'Magento_Checkout::checkout', NULL, 'deny'),
-(95161, 144, 'Magento_Sales::config_sales', NULL, 'deny'),
-(95162, 144, 'Magento_Persistent::persistent', NULL, 'deny'),
-(95163, 144, 'Magento_Sales::sales_email', NULL, 'deny'),
-(95164, 144, 'Magento_Sales::sales_pdf', NULL, 'deny'),
-(95165, 144, 'Magento_Sitemap::config_sitemap', NULL, 'deny'),
-(95166, 144, 'Magento_Reports::reports', NULL, 'deny'),
-(95167, 144, 'Magento_Wishlist::config_wishlist', NULL, 'deny'),
-(95168, 144, 'Magento_Config::config_system', NULL, 'deny'),
-(95169, 144, 'Magento_SalesRule::config_promo', NULL, 'deny'),
-(95170, 144, 'Magento_Config::advanced', NULL, 'deny'),
-(95171, 144, 'Magento_Config::trans_email', NULL, 'deny'),
-(95172, 144, 'Magento_Config::config_admin', NULL, 'deny'),
-(95173, 144, 'Magento_Config::dev', NULL, 'deny'),
-(95174, 144, 'Magento_Config::currency', NULL, 'deny'),
-(95175, 144, 'Magento_Rss::rss', NULL, 'deny'),
-(95176, 144, 'Magento_Config::sendfriend', NULL, 'deny'),
-(95177, 144, 'Magento_Analytics::analytics_settings', NULL, 'deny'),
-(95178, 144, 'Magento_NewRelicReporting::config_newrelicreporting', NULL, 'deny'),
-(95179, 144, 'Magento_CheckoutAgreements::checkoutagreement', NULL, 'deny'),
-(95180, 144, 'Magento_Sales::order_statuses', NULL, 'deny'),
-(95181, 144, 'Temando_Shipping::shipping', NULL, 'deny'),
-(95182, 144, 'Temando_Shipping::carriers', NULL, 'deny'),
-(95183, 144, 'Temando_Shipping::locations', NULL, 'deny'),
-(95184, 144, 'Temando_Shipping::packaging', NULL, 'deny'),
-(95185, 144, 'Magento_Tax::manage_tax', NULL, 'deny'),
-(95186, 144, 'Magento_CurrencySymbol::system_currency', NULL, 'deny'),
-(95187, 144, 'Magento_CurrencySymbol::currency_rates', NULL, 'deny'),
-(95188, 144, 'Magento_CurrencySymbol::symbols', NULL, 'deny'),
-(95189, 144, 'Magento_Backend::stores_attributes', NULL, 'deny'),
-(95190, 144, 'Magento_Catalog::attributes_attributes', NULL, 'deny'),
-(95191, 144, 'Magento_Catalog::update_attributes', NULL, 'deny'),
-(95192, 144, 'Magento_Catalog::sets', NULL, 'deny'),
-(95193, 144, 'Magento_Review::ratings', NULL, 'deny'),
-(95194, 144, 'Magento_Swatches::iframe', NULL, 'deny'),
-(95195, 144, 'Magento_Backend::stores_other_settings', NULL, 'deny'),
-(95196, 144, 'Magento_Customer::group', NULL, 'deny'),
-(95197, 144, 'Magento_Backend::system', NULL, 'deny'),
-(95198, 144, 'Magento_Backend::convert', NULL, 'deny'),
-(95199, 144, 'Magento_ImportExport::import', NULL, 'deny'),
-(95200, 144, 'Magento_ImportExport::export', NULL, 'deny'),
-(95201, 144, 'Magento_TaxImportExport::import_export', NULL, 'deny'),
-(95202, 144, 'Magento_ImportExport::history', NULL, 'deny'),
-(95203, 144, 'Magento_Backend::extensions', NULL, 'deny'),
-(95204, 144, 'Magento_Backend::local', NULL, 'deny'),
-(95205, 144, 'Magento_Backend::custom', NULL, 'deny'),
-(95206, 144, 'Magento_Backend::tools', NULL, 'deny'),
-(95207, 144, 'Magento_Backend::cache', NULL, 'deny'),
-(95208, 144, 'Magento_Backend::main_actions', NULL, 'deny'),
-(95209, 144, 'Magento_Backend::flush_cache_storage', NULL, 'deny'),
-(95210, 144, 'Magento_Backend::flush_magento_cache', NULL, 'deny'),
-(95211, 144, 'Magento_Backend::mass_actions', NULL, 'deny'),
-(95212, 144, 'Magento_Backend::toggling_cache_type', NULL, 'deny'),
-(95213, 144, 'Magento_Backend::refresh_cache_type', NULL, 'deny'),
-(95214, 144, 'Magento_Backend::additional_cache_management', NULL, 'deny'),
-(95215, 144, 'Magento_Backend::flush_catalog_images', NULL, 'deny'),
-(95216, 144, 'Magento_Backend::flush_js_css', NULL, 'deny'),
-(95217, 144, 'Magento_Backend::flush_static_files', NULL, 'deny'),
-(95218, 144, 'Magento_Backend::setup_wizard', NULL, 'deny'),
-(95219, 144, 'Magento_Backup::backup', NULL, 'deny'),
-(95220, 144, 'Magento_Backup::rollback', NULL, 'deny'),
-(95221, 144, 'Magento_Indexer::index', NULL, 'deny'),
-(95222, 144, 'Magento_Indexer::changeMode', NULL, 'deny'),
-(95223, 144, 'Magento_User::acl', NULL, 'deny'),
-(95224, 144, 'Magento_User::acl_users', NULL, 'deny'),
-(95225, 144, 'Magento_User::locks', NULL, 'deny'),
-(95226, 144, 'Magento_User::acl_roles', NULL, 'deny'),
-(95227, 144, 'Magento_Backend::system_other_settings', NULL, 'deny'),
-(95228, 144, 'Magento_AdminNotification::adminnotification', NULL, 'deny'),
-(95229, 144, 'Magento_AdminNotification::show_toolbar', NULL, 'deny'),
-(95230, 144, 'Magento_AdminNotification::show_list', NULL, 'deny'),
-(95231, 144, 'Magento_AdminNotification::mark_as_read', NULL, 'deny'),
-(95232, 144, 'Magento_AdminNotification::adminnotification_remove', NULL, 'deny'),
-(95233, 144, 'Magento_Variable::variable', NULL, 'deny'),
-(95234, 144, 'Magento_EncryptionKey::crypt_key', NULL, 'deny'),
-(95235, 144, 'Magento_Backend::global_search', NULL, 'deny');
+(99384, 150, 'Magento_Backend::all', NULL, 'deny'),
+(99385, 150, 'Magento_Backend::admin', NULL, 'allow'),
+(99386, 150, 'Magento_Backend::dashboard', NULL, 'deny'),
+(99387, 150, 'Swissup_Core::swissup', NULL, 'deny'),
+(99388, 150, 'Swissup_Core::services', NULL, 'deny'),
+(99389, 150, 'Swissup_Core::installer_index', NULL, 'deny'),
+(99390, 150, 'Swissup_Core::installer_form', NULL, 'deny'),
+(99391, 150, 'Swissup_Core::installer_install', NULL, 'deny'),
+(99392, 150, 'Swissup_Core::installer_upgrade', NULL, 'deny'),
+(99393, 150, 'Swissup_Core::general', NULL, 'deny'),
+(99394, 150, 'Trive_Core::admin', NULL, 'deny'),
+(99395, 150, 'Trive_Revo::productslider', NULL, 'deny'),
+(99396, 150, 'Trive_Revo::manage_sliders', NULL, 'deny'),
+(99397, 150, 'Trive_Revo::config', NULL, 'deny'),
+(99398, 150, 'Magento_Analytics::analytics', NULL, 'deny'),
+(99399, 150, 'Magento_Analytics::analytics_api', NULL, 'deny'),
+(99400, 150, 'Magento_Sales::sales', NULL, 'deny'),
+(99401, 150, 'Magento_Sales::sales_operation', NULL, 'deny'),
+(99402, 150, 'Magento_Sales::sales_order', NULL, 'deny'),
+(99403, 150, 'Magento_Sales::actions', NULL, 'deny'),
+(99404, 150, 'Magento_Sales::create', NULL, 'deny'),
+(99405, 150, 'Magento_Sales::actions_view', NULL, 'deny'),
+(99406, 150, 'Magento_Sales::email', NULL, 'deny'),
+(99407, 150, 'Magento_Sales::reorder', NULL, 'deny'),
+(99408, 150, 'Magento_Sales::actions_edit', NULL, 'deny'),
+(99409, 150, 'Magento_Sales::cancel', NULL, 'deny'),
+(99410, 150, 'Magento_Sales::review_payment', NULL, 'deny'),
+(99411, 150, 'Magento_Sales::capture', NULL, 'deny'),
+(99412, 150, 'Magento_Sales::invoice', NULL, 'deny'),
+(99413, 150, 'Magento_Sales::creditmemo', NULL, 'deny'),
+(99414, 150, 'Magento_Sales::hold', NULL, 'deny'),
+(99415, 150, 'Magento_Sales::unhold', NULL, 'deny'),
+(99416, 150, 'Magento_Sales::ship', NULL, 'deny'),
+(99417, 150, 'Magento_Sales::comment', NULL, 'deny'),
+(99418, 150, 'Magento_Sales::emails', NULL, 'deny'),
+(99419, 150, 'Magento_Sales::sales_invoice', NULL, 'deny'),
+(99420, 150, 'Magento_Sales::shipment', NULL, 'deny'),
+(99421, 150, 'Temando_Shipping::dispatches', NULL, 'deny'),
+(99422, 150, 'Magento_Sales::sales_creditmemo', NULL, 'deny'),
+(99423, 150, 'Magento_Paypal::billing_agreement', NULL, 'deny'),
+(99424, 150, 'Magento_Paypal::billing_agreement_actions', NULL, 'deny'),
+(99425, 150, 'Magento_Paypal::billing_agreement_actions_view', NULL, 'deny'),
+(99426, 150, 'Magento_Paypal::actions_manage', NULL, 'deny'),
+(99427, 150, 'Magento_Paypal::use', NULL, 'deny'),
+(99428, 150, 'Magento_Sales::transactions', NULL, 'deny'),
+(99429, 150, 'Magento_Sales::transactions_fetch', NULL, 'deny'),
+(99430, 150, 'Magento_Catalog::catalog', NULL, 'allow'),
+(99431, 150, 'Magento_Catalog::catalog_inventory', NULL, 'allow'),
+(99432, 150, 'Magento_Catalog::products', NULL, 'allow'),
+(99433, 150, 'Magento_Catalog::categories', NULL, 'deny'),
+(99434, 150, 'Magento_Customer::customer', NULL, 'deny'),
+(99435, 150, 'Magento_Customer::manage', NULL, 'deny'),
+(99436, 150, 'Magento_Customer::online', NULL, 'deny'),
+(99437, 150, 'Magento_Cart::cart', NULL, 'deny'),
+(99438, 150, 'Magento_Cart::manage', NULL, 'deny'),
+(99439, 150, 'Magento_Backend::myaccount', NULL, 'deny'),
+(99440, 150, 'Magento_Backend::marketing', NULL, 'deny'),
+(99441, 150, 'Magento_CatalogRule::promo', NULL, 'deny'),
+(99442, 150, 'Magento_CatalogRule::promo_catalog', NULL, 'deny'),
+(99443, 150, 'Magento_SalesRule::quote', NULL, 'deny'),
+(99444, 150, 'Dotdigitalgroup_Email::automation', NULL, 'deny'),
+(99445, 150, 'Dotdigitalgroup_Email::automation_studio', NULL, 'deny'),
+(99446, 150, 'Dotdigitalgroup_Email::exclusion_rules', NULL, 'deny'),
+(99447, 150, 'Magento_Backend::marketing_communications', NULL, 'deny'),
+(99448, 150, 'Magento_Email::template', NULL, 'deny'),
+(99449, 150, 'Magento_Newsletter::template', NULL, 'deny'),
+(99450, 150, 'Magento_Newsletter::queue', NULL, 'deny'),
+(99451, 150, 'Magento_Newsletter::subscriber', NULL, 'deny'),
+(99452, 150, 'Magento_Backend::marketing_seo', NULL, 'deny'),
+(99453, 150, 'Magento_Search::search', NULL, 'deny'),
+(99454, 150, 'Magento_Search::synonyms', NULL, 'deny'),
+(99455, 150, 'Magento_UrlRewrite::urlrewrite', NULL, 'deny'),
+(99456, 150, 'Magento_Sitemap::sitemap', NULL, 'deny'),
+(99457, 150, 'Magento_Backend::marketing_user_content', NULL, 'deny'),
+(99458, 150, 'Magento_Review::reviews_all', NULL, 'deny'),
+(99459, 150, 'Magento_Review::pending', NULL, 'deny'),
+(99460, 150, 'Magento_Backend::content', NULL, 'deny'),
+(99461, 150, 'Magento_Backend::content_elements', NULL, 'deny'),
+(99462, 150, 'Magento_Cms::page', NULL, 'deny'),
+(99463, 150, 'Magento_Cms::save', NULL, 'deny'),
+(99464, 150, 'Magento_Cms::page_delete', NULL, 'deny'),
+(99465, 150, 'Magento_Cms::block', NULL, 'deny'),
+(99466, 150, 'Magento_Widget::widget_instance', NULL, 'deny'),
+(99467, 150, 'Magento_Cms::media_gallery', NULL, 'deny'),
+(99468, 150, 'Magento_Backend::design', NULL, 'deny'),
+(99469, 150, 'Magento_Theme::theme', NULL, 'deny'),
+(99470, 150, 'Magento_Backend::schedule', NULL, 'deny'),
+(99471, 150, 'Magento_Backend::content_translation', NULL, 'deny'),
+(99472, 150, 'Magento_Reports::report', NULL, 'deny'),
+(99473, 150, 'Dotdigitalgroup_Email::reports', NULL, 'deny'),
+(99474, 150, 'Dotdigitalgroup_Email::contact', NULL, 'deny'),
+(99475, 150, 'Dotdigitalgroup_Email::order', NULL, 'deny'),
+(99476, 150, 'Dotdigitalgroup_Email::review', NULL, 'deny'),
+(99477, 150, 'Dotdigitalgroup_Email::wishlist', NULL, 'deny'),
+(99478, 150, 'Dotdigitalgroup_Email::catalog', NULL, 'deny'),
+(99479, 150, 'Dotdigitalgroup_Email::importer', NULL, 'deny'),
+(99480, 150, 'Dotdigitalgroup_Email::campaign', NULL, 'deny'),
+(99481, 150, 'Dotdigitalgroup_Email::cron', NULL, 'deny'),
+(99482, 150, 'Dotdigitalgroup_Email::dashboard', NULL, 'deny'),
+(99483, 150, 'Dotdigitalgroup_Email::automation_enrollment', NULL, 'deny'),
+(99484, 150, 'Dotdigitalgroup_Email::logviewer', NULL, 'deny'),
+(99485, 150, 'Magento_Reports::report_marketing', NULL, 'deny'),
+(99486, 150, 'Magento_Reports::shopcart', NULL, 'deny'),
+(99487, 150, 'Magento_Reports::product', NULL, 'deny'),
+(99488, 150, 'Magento_Reports::abandoned', NULL, 'deny'),
+(99489, 150, 'Magento_Reports::report_search', NULL, 'deny'),
+(99490, 150, 'Magento_Newsletter::problem', NULL, 'deny'),
+(99491, 150, 'Magento_Reports::review', NULL, 'deny'),
+(99492, 150, 'Magento_Reports::review_customer', NULL, 'deny'),
+(99493, 150, 'Magento_Reports::review_product', NULL, 'deny'),
+(99494, 150, 'Magento_Reports::salesroot', NULL, 'deny'),
+(99495, 150, 'Magento_Reports::salesroot_sales', NULL, 'deny'),
+(99496, 150, 'Magento_Reports::tax', NULL, 'deny'),
+(99497, 150, 'Magento_Reports::invoiced', NULL, 'deny'),
+(99498, 150, 'Magento_Reports::shipping', NULL, 'deny'),
+(99499, 150, 'Magento_Reports::refunded', NULL, 'deny'),
+(99500, 150, 'Magento_Reports::coupons', NULL, 'deny'),
+(99501, 150, 'Magento_Paypal::paypal_settlement_reports', NULL, 'deny'),
+(99502, 150, 'Magento_Paypal::paypal_settlement_reports_view', NULL, 'deny'),
+(99503, 150, 'Magento_Paypal::fetch', NULL, 'deny'),
+(99504, 150, 'Magento_Braintree::settlement_report', NULL, 'deny'),
+(99505, 150, 'Magento_Reports::customers', NULL, 'deny'),
+(99506, 150, 'Magento_Reports::totals', NULL, 'deny'),
+(99507, 150, 'Magento_Reports::customers_orders', NULL, 'deny'),
+(99508, 150, 'Magento_Reports::accounts', NULL, 'deny'),
+(99509, 150, 'Magento_Reports::report_products', NULL, 'deny'),
+(99510, 150, 'Magento_Reports::viewed', NULL, 'deny'),
+(99511, 150, 'Magento_Reports::bestsellers', NULL, 'deny'),
+(99512, 150, 'Magento_Reports::lowstock', NULL, 'deny'),
+(99513, 150, 'Magento_Reports::sold', NULL, 'deny'),
+(99514, 150, 'Magento_Reports::downloads', NULL, 'deny'),
+(99515, 150, 'Magento_Reports::statistics', NULL, 'deny'),
+(99516, 150, 'Magento_Reports::statistics_refresh', NULL, 'deny'),
+(99517, 150, 'Magento_Analytics::business_intelligence', NULL, 'deny'),
+(99518, 150, 'Magento_Analytics::advanced_reporting', NULL, 'deny'),
+(99519, 150, 'Magento_Analytics::bi_essentials', NULL, 'deny'),
+(99520, 150, 'Magento_Backend::stores', NULL, 'allow'),
+(99521, 150, 'Magento_Backend::stores_settings', NULL, 'allow'),
+(99522, 150, 'Magento_Backend::store', NULL, 'allow'),
+(99523, 150, 'Magento_Config::config', NULL, 'deny'),
+(99524, 150, 'Jnext_Megamenu::jnext_mega_config', NULL, 'deny'),
+(99525, 150, 'Magento_Cms::config_cms', NULL, 'deny'),
+(99526, 150, 'Dotdigitalgroup_Email::config', NULL, 'deny'),
+(99527, 150, 'Magento_Sales::fraud_protection', NULL, 'deny'),
+(99528, 150, 'Magento_GoogleAnalytics::google', NULL, 'deny'),
+(99529, 150, 'Magento_Newsletter::newsletter', NULL, 'deny'),
+(99530, 150, 'Magento_Contact::contact', NULL, 'deny'),
+(99531, 150, 'Magento_CatalogInventory::cataloginventory', NULL, 'deny'),
+(99532, 150, 'Magento_Payment::payment_services', NULL, 'deny'),
+(99533, 150, 'Magento_Payment::payment', NULL, 'deny'),
+(99534, 150, 'Magento_Catalog::config_catalog', NULL, 'deny'),
+(99535, 150, 'Magento_CatalogSearch::config_catalog_search', NULL, 'deny'),
+(99536, 150, 'Magento_Downloadable::downloadable', NULL, 'deny'),
+(99537, 150, 'Magento_Shipping::carriers', NULL, 'deny'),
+(99538, 150, 'Magento_Shipping::shipping_policy', NULL, 'deny'),
+(99539, 150, 'Magento_Shipping::config_shipping', NULL, 'deny'),
+(99540, 150, 'Magento_Multishipping::config_multishipping', NULL, 'deny'),
+(99541, 150, 'Magento_Config::config_general', NULL, 'deny'),
+(99542, 150, 'Magento_Config::web', NULL, 'deny'),
+(99543, 150, 'Magento_Config::config_design', NULL, 'deny'),
+(99544, 150, 'Magento_Paypal::paypal', NULL, 'deny'),
+(99545, 150, 'Magento_Customer::config_customer', NULL, 'deny'),
+(99546, 150, 'Magento_Tax::config_tax', NULL, 'deny'),
+(99547, 150, 'Magento_Checkout::checkout', NULL, 'deny'),
+(99548, 150, 'Magento_Sales::config_sales', NULL, 'deny'),
+(99549, 150, 'Magento_Persistent::persistent', NULL, 'deny'),
+(99550, 150, 'Magento_Sales::sales_email', NULL, 'deny'),
+(99551, 150, 'Magento_Sales::sales_pdf', NULL, 'deny'),
+(99552, 150, 'Magento_Reports::reports', NULL, 'deny'),
+(99553, 150, 'Magento_Sitemap::config_sitemap', NULL, 'deny'),
+(99554, 150, 'Magento_Config::config_system', NULL, 'deny'),
+(99555, 150, 'Magento_Wishlist::config_wishlist', NULL, 'deny'),
+(99556, 150, 'Magento_SalesRule::config_promo', NULL, 'deny'),
+(99557, 150, 'Magento_Config::advanced', NULL, 'deny'),
+(99558, 150, 'Magento_Config::config_admin', NULL, 'deny'),
+(99559, 150, 'Magento_Config::trans_email', NULL, 'deny'),
+(99560, 150, 'Magento_Config::dev', NULL, 'deny'),
+(99561, 150, 'Magento_Config::currency', NULL, 'deny'),
+(99562, 150, 'Magento_Rss::rss', NULL, 'deny'),
+(99563, 150, 'Magento_Config::sendfriend', NULL, 'deny'),
+(99564, 150, 'Magento_Analytics::analytics_settings', NULL, 'deny'),
+(99565, 150, 'Swissup_ThemeEditor::config', NULL, 'deny'),
+(99566, 150, 'Swissup_ThemeEditorSwissupAbsolute::config', NULL, 'deny'),
+(99567, 150, 'Swissup_Core::swissup_config', NULL, 'deny'),
+(99568, 150, 'Swissup_Core::core_config', NULL, 'deny'),
+(99569, 150, 'Swissup_FontAwesome::config_fontawesome', NULL, 'deny'),
+(99570, 150, 'Magento_NewRelicReporting::config_newrelicreporting', NULL, 'deny'),
+(99571, 150, 'Magento_CheckoutAgreements::checkoutagreement', NULL, 'deny'),
+(99572, 150, 'Magento_Sales::order_statuses', NULL, 'deny'),
+(99573, 150, 'Temando_Shipping::shipping', NULL, 'deny'),
+(99574, 150, 'Temando_Shipping::carriers', NULL, 'deny'),
+(99575, 150, 'Temando_Shipping::locations', NULL, 'deny'),
+(99576, 150, 'Temando_Shipping::packaging', NULL, 'deny'),
+(99577, 150, 'Magento_Tax::manage_tax', NULL, 'deny'),
+(99578, 150, 'Magento_CurrencySymbol::system_currency', NULL, 'deny'),
+(99579, 150, 'Magento_CurrencySymbol::currency_rates', NULL, 'deny'),
+(99580, 150, 'Magento_CurrencySymbol::symbols', NULL, 'deny'),
+(99581, 150, 'Magento_Backend::stores_attributes', NULL, 'deny'),
+(99582, 150, 'Magento_Catalog::attributes_attributes', NULL, 'deny'),
+(99583, 150, 'Magento_Catalog::update_attributes', NULL, 'deny'),
+(99584, 150, 'Magento_Catalog::sets', NULL, 'deny'),
+(99585, 150, 'Magento_Review::ratings', NULL, 'deny'),
+(99586, 150, 'Magento_Swatches::iframe', NULL, 'deny'),
+(99587, 150, 'Magento_Backend::stores_other_settings', NULL, 'deny'),
+(99588, 150, 'Magento_Customer::group', NULL, 'deny'),
+(99589, 150, 'Magento_Backend::system', NULL, 'deny'),
+(99590, 150, 'Magento_Backend::convert', NULL, 'deny'),
+(99591, 150, 'Magento_ImportExport::import', NULL, 'deny'),
+(99592, 150, 'Magento_ImportExport::export', NULL, 'deny'),
+(99593, 150, 'Magento_TaxImportExport::import_export', NULL, 'deny'),
+(99594, 150, 'Magento_ImportExport::history', NULL, 'deny'),
+(99595, 150, 'Magento_Backend::extensions', NULL, 'deny'),
+(99596, 150, 'Magento_Backend::local', NULL, 'deny'),
+(99597, 150, 'Magento_Backend::custom', NULL, 'deny'),
+(99598, 150, 'Magento_Backend::tools', NULL, 'deny'),
+(99599, 150, 'Magento_Backend::cache', NULL, 'deny'),
+(99600, 150, 'Magento_Backend::main_actions', NULL, 'deny'),
+(99601, 150, 'Magento_Backend::flush_cache_storage', NULL, 'deny'),
+(99602, 150, 'Magento_Backend::flush_magento_cache', NULL, 'deny'),
+(99603, 150, 'Magento_Backend::mass_actions', NULL, 'deny'),
+(99604, 150, 'Magento_Backend::toggling_cache_type', NULL, 'deny'),
+(99605, 150, 'Magento_Backend::refresh_cache_type', NULL, 'deny'),
+(99606, 150, 'Magento_Backend::additional_cache_management', NULL, 'deny'),
+(99607, 150, 'Magento_Backend::flush_catalog_images', NULL, 'deny'),
+(99608, 150, 'Magento_Backend::flush_js_css', NULL, 'deny'),
+(99609, 150, 'Magento_Backend::flush_static_files', NULL, 'deny'),
+(99610, 150, 'Magento_Backend::setup_wizard', NULL, 'deny'),
+(99611, 150, 'Magento_Backup::backup', NULL, 'deny'),
+(99612, 150, 'Magento_Backup::rollback', NULL, 'deny'),
+(99613, 150, 'Magento_Indexer::index', NULL, 'deny'),
+(99614, 150, 'Magento_Indexer::changeMode', NULL, 'deny'),
+(99615, 150, 'Magento_User::acl', NULL, 'deny'),
+(99616, 150, 'Magento_User::acl_users', NULL, 'deny'),
+(99617, 150, 'Magento_User::locks', NULL, 'deny'),
+(99618, 150, 'Magento_User::acl_roles', NULL, 'deny'),
+(99619, 150, 'Magento_Backend::system_other_settings', NULL, 'deny'),
+(99620, 150, 'Magento_AdminNotification::adminnotification', NULL, 'deny'),
+(99621, 150, 'Magento_AdminNotification::show_toolbar', NULL, 'deny'),
+(99622, 150, 'Magento_AdminNotification::show_list', NULL, 'deny'),
+(99623, 150, 'Magento_AdminNotification::mark_as_read', NULL, 'deny'),
+(99624, 150, 'Magento_AdminNotification::adminnotification_remove', NULL, 'deny'),
+(99625, 150, 'Magento_Variable::variable', NULL, 'deny'),
+(99626, 150, 'Magento_EncryptionKey::crypt_key', NULL, 'deny'),
+(99627, 150, 'Magento_Backend::global_search', NULL, 'deny');
 
 -- --------------------------------------------------------
 
@@ -3558,7 +3574,7 @@ INSERT INTO `catalog_category_entity_varchar` (`value_id`, `attribute_id`, `stor
 (65, 52, 0, 8, 'PRODUCTS'),
 (66, 117, 0, 8, 'default-category'),
 (72, 49, 0, 8, NULL),
-(73, 60, 0, 8, '11'),
+(73, 60, 0, 8, ''),
 (74, 63, 0, 8, '2columns-left'),
 (111, 45, 0, 10, 'Men'),
 (112, 49, 0, 10, 'Men'),
@@ -3574,23 +3590,23 @@ INSERT INTO `catalog_category_entity_varchar` (`value_id`, `attribute_id`, `stor
 (122, 117, 0, 12, 't-shirts'),
 (123, 118, 0, 12, 'men/t-shirts'),
 (126, 49, 0, 11, 'trouser'),
-(127, 60, 0, 11, '11'),
+(127, 60, 0, 11, ''),
 (128, 63, 0, 11, '2columns-left'),
-(133, 60, 0, 10, '11'),
+(133, 60, 0, 10, ''),
 (134, 63, 0, 10, '2columns-left'),
 (154, 45, 0, 14, 'Laptop'),
 (155, 52, 0, 14, 'PRODUCTS'),
 (156, 117, 0, 14, 'laptop'),
 (157, 118, 0, 14, 'laptop'),
 (159, 49, 0, 14, 'laptop'),
-(160, 60, 0, 14, '11'),
+(160, 60, 0, 14, ''),
 (161, 63, 0, 14, '2columns-left'),
 (163, 45, 0, 15, 'Dell'),
 (164, 49, 0, 15, 'dell'),
 (165, 52, 0, 15, 'PRODUCTS'),
 (166, 117, 0, 15, 'dell'),
 (167, 118, 0, 15, 'laptop/dell'),
-(175, 60, 0, 15, '11'),
+(175, 60, 0, 15, ''),
 (176, 63, 0, 15, '2columns-left'),
 (181, 49, 0, 12, NULL),
 (182, 60, 0, 12, NULL),
@@ -3600,7 +3616,7 @@ INSERT INTO `catalog_category_entity_varchar` (`value_id`, `attribute_id`, `stor
 (186, 117, 0, 16, 'jackets-men'),
 (187, 118, 0, 16, 'men/jackets-men'),
 (189, 49, 0, 16, NULL),
-(190, 60, 0, 16, '11'),
+(190, 60, 0, 16, ''),
 (191, 63, 0, 16, '2columns-left'),
 (193, 140, 0, 14, 'mega'),
 (194, 141, 0, 14, 'width_100'),
@@ -3927,7 +3943,13 @@ INSERT INTO `catalog_category_flat_cl` (`version_id`, `entity_id`) VALUES
 (246, 8),
 (247, 8),
 (248, 8),
-(249, 10);
+(249, 10),
+(250, 15),
+(251, 10),
+(252, 11),
+(253, 8),
+(254, 14),
+(255, 16);
 
 -- --------------------------------------------------------
 
@@ -7504,7 +7526,7 @@ INSERT INTO `catalog_product_frontend_action` (`action_id`, `type_id`, `visitor_
 (143, 'recently_viewed_product', 167, NULL, 33, 1525256695),
 (144, 'recently_viewed_product', 170, NULL, 32, 1525323195),
 (146, 'recently_viewed_product', 178, NULL, 27, 1525427416),
-(147, 'recently_viewed_product', 0, NULL, 1, 1526459438);
+(148, 'recently_viewed_product', 0, NULL, 1, 1526466820);
 
 -- --------------------------------------------------------
 
@@ -9156,7 +9178,6 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (19, 'websites', 1, 'design/pagination/pagination_frame_skip', NULL),
 (20, 'websites', 1, 'design/pagination/anchor_text_for_previous', NULL),
 (21, 'websites', 1, 'design/pagination/anchor_text_for_next', NULL),
-(22, 'websites', 1, 'design/head/shortcut_icon', 'websites/1/bookmark-ribbon.png'),
 (24, 'websites', 1, 'design/head/title_prefix', NULL),
 (25, 'websites', 1, 'design/head/title_suffix', '|E-COM'),
 (26, 'websites', 1, 'design/head/default_description', NULL),
@@ -9316,8 +9337,8 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (188, 'stores', 1, 'design/email/logo_height', NULL),
 (189, 'stores', 1, 'design/watermark/swatch_image_size', NULL),
 (190, 'stores', 1, 'design/watermark/swatch_image_imageOpacity', NULL),
-(192, 'default', 0, 'design/theme/theme_id', '2'),
-(193, 'websites', 1, 'design/theme/theme_id', '2'),
+(192, 'default', 0, 'design/theme/theme_id', '15'),
+(193, 'websites', 1, 'design/theme/theme_id', '15'),
 (194, 'default', 0, 'scrollsection/scrollgroup/active', '1'),
 (195, 'default', 0, 'outofstock_product/outofstockproduct/enableoutofstock', '0'),
 (196, 'default', 0, 'productslider/general/enable_productslider', '1'),
@@ -9366,7 +9387,8 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (239, 'default', 0, 'scrollsection/scrollgroup/textclr', '#333333'),
 (240, 'default', 0, 'scrollsection/scrollgroup/texthoverclr', '#ffffff'),
 (241, 'default', 0, 'scrollsection/scrollgroup/link_image', NULL),
-(242, 'default', 0, 'scrollsection/scrollgroup/link_hover_image', NULL);
+(242, 'default', 0, 'scrollsection/scrollgroup/link_hover_image', NULL),
+(243, 'default', 0, 'swissup_core/notification/enabled', '1');
 
 -- --------------------------------------------------------
 
@@ -10147,9 +10169,9 @@ CREATE TABLE `design_config_grid_flat` (
 --
 
 INSERT INTO `design_config_grid_flat` (`entity_id`, `store_website_id`, `store_group_id`, `store_id`, `theme_theme_id`) VALUES
-(0, NULL, NULL, NULL, '2'),
-(1, 1, NULL, NULL, '2'),
-(2, 1, 1, 1, '2');
+(0, NULL, NULL, NULL, '15'),
+(1, 1, NULL, NULL, '15'),
+(2, 1, 1, 1, '15');
 
 -- --------------------------------------------------------
 
@@ -13112,14 +13134,14 @@ CREATE TABLE `flag` (
 
 INSERT INTO `flag` (`flag_id`, `flag_code`, `state`, `flag_data`, `last_update`) VALUES
 (1, 'analytics_link_attempts_reverse_counter', 0, '24', '2018-04-20 08:32:50'),
-(2, 'report_order_aggregated', 0, NULL, '2018-05-14 11:36:33'),
-(3, 'report_tax_aggregated', 0, NULL, '2018-05-14 11:36:33'),
-(4, 'report_shipping_aggregated', 0, NULL, '2018-05-14 11:36:33'),
-(5, 'report_invoiced_aggregated', 0, NULL, '2018-05-14 11:36:34'),
-(6, 'report_refunded_aggregated', 0, NULL, '2018-05-14 11:36:34'),
-(7, 'report_coupons_aggregated', 0, NULL, '2018-05-14 11:36:34'),
-(8, 'report_bestsellers_aggregated', 0, NULL, '2018-05-14 11:36:35'),
-(9, 'report_product_viewed_aggregated', 0, NULL, '2018-05-14 11:36:36'),
+(2, 'report_order_aggregated', 0, NULL, '2018-05-16 11:23:39'),
+(3, 'report_tax_aggregated', 0, NULL, '2018-05-16 11:23:39'),
+(4, 'report_shipping_aggregated', 0, NULL, '2018-05-16 11:23:39'),
+(5, 'report_invoiced_aggregated', 0, NULL, '2018-05-16 11:23:40'),
+(6, 'report_refunded_aggregated', 0, NULL, '2018-05-16 11:23:40'),
+(7, 'report_coupons_aggregated', 0, NULL, '2018-05-16 11:23:40'),
+(8, 'report_bestsellers_aggregated', 0, NULL, '2018-05-16 11:23:41'),
+(9, 'report_product_viewed_aggregated', 0, NULL, '2018-05-16 11:23:42'),
 (10, 'catalog_rules_dirty', 0, NULL, '2018-04-28 09:42:58');
 
 -- --------------------------------------------------------
@@ -13198,18 +13220,18 @@ CREATE TABLE `indexer_state` (
 --
 
 INSERT INTO `indexer_state` (`state_id`, `indexer_id`, `status`, `updated`, `hash_config`) VALUES
-(1, 'design_config_grid', 'valid', '2018-05-16 09:01:09', '34ec592bfa6c952bed4d0a1d58c98770'),
-(2, 'customer_grid', 'valid', '2018-05-16 09:01:13', 'b9632e06cf957d6e8103eb236ca38cc1'),
-(3, 'catalog_category_product', 'valid', '2018-05-16 09:01:23', '2124d5bfcd83b609c67eee94a0e4708c'),
+(1, 'design_config_grid', 'valid', '2018-05-16 11:15:32', '34ec592bfa6c952bed4d0a1d58c98770'),
+(2, 'customer_grid', 'valid', '2018-05-16 11:15:40', 'b9632e06cf957d6e8103eb236ca38cc1'),
+(3, 'catalog_category_product', 'valid', '2018-05-16 11:15:56', '2124d5bfcd83b609c67eee94a0e4708c'),
 (4, 'catalog_product_category', 'valid', '2018-04-20 12:16:39', '77b6356629f3259568a68ea64c773238'),
-(5, 'catalog_product_price', 'valid', '2018-05-16 09:01:28', '2c3434338353a47cb4c5783800c0bdbe'),
-(6, 'catalog_product_attribute', 'valid', '2018-05-16 09:01:32', 'f73cae77ec4dee3b587a60a2f38dd26a'),
-(7, 'cataloginventory_stock', 'valid', '2018-05-16 09:01:36', '1bf66e64558a5171e523b32f25cb99ca'),
-(8, 'catalogrule_rule', 'valid', '2018-05-16 09:01:42', 'c4f8344a2e6a7d8ebc065631454a4724'),
+(5, 'catalog_product_price', 'valid', '2018-05-16 11:16:00', '2c3434338353a47cb4c5783800c0bdbe'),
+(6, 'catalog_product_attribute', 'valid', '2018-05-16 11:16:04', 'f73cae77ec4dee3b587a60a2f38dd26a'),
+(7, 'cataloginventory_stock', 'valid', '2018-05-16 11:16:10', '1bf66e64558a5171e523b32f25cb99ca'),
+(8, 'catalogrule_rule', 'valid', '2018-05-16 11:16:16', 'c4f8344a2e6a7d8ebc065631454a4724'),
 (9, 'catalogrule_product', 'valid', '2018-04-28 09:19:21', '667205576ee3764b1ee81c4a076d10ae'),
-(10, 'catalogsearch_fulltext', 'valid', '2018-05-16 09:01:49', 'cc2d2701487ee835df4e72b15254852b'),
+(10, 'catalogsearch_fulltext', 'valid', '2018-05-16 11:16:24', 'cc2d2701487ee835df4e72b15254852b'),
 (11, 'catalog_category_flat', 'valid', '2018-05-07 05:27:49', 'e6a117e283e0ea6606bb6609429350ec'),
-(12, 'catalog_product_flat', 'valid', '2018-05-16 09:01:20', '4bab4debcc94e5fee020709a540eb42d');
+(12, 'catalog_product_flat', 'valid', '2018-05-16 11:15:54', '4bab4debcc94e5fee020709a540eb42d');
 
 -- --------------------------------------------------------
 
@@ -13235,7 +13257,7 @@ CREATE TABLE `integration` (
 --
 
 INSERT INTO `integration` (`integration_id`, `name`, `email`, `endpoint`, `status`, `consumer_id`, `created_at`, `updated_at`, `setup_type`, `identity_link_url`) VALUES
-(135, 'Magento Social', 'social-support@magento.com', 'https://fbapp.ezsocialshop.com/facebook/index.php/magento_auth', 2, 135, '2018-05-16 08:48:09', '2018-05-16 08:48:09', 1, 'https://fbapp.ezsocialshop.com/facebook/index.php/magento2/show_magento_success_popup');
+(141, 'Magento Social', 'social-support@magento.com', 'https://fbapp.ezsocialshop.com/facebook/index.php/magento_auth', 2, 141, '2018-05-16 11:13:12', '2018-05-16 11:13:12', 1, 'https://fbapp.ezsocialshop.com/facebook/index.php/magento2/show_magento_success_popup');
 
 -- --------------------------------------------------------
 
@@ -13303,18 +13325,18 @@ CREATE TABLE `mview_state` (
 --
 
 INSERT INTO `mview_state` (`state_id`, `view_id`, `mode`, `status`, `updated`, `version_id`) VALUES
-(1, 'design_config_dummy', 'enabled', 'idle', '2018-05-16 09:01:09', 0),
-(2, 'customer_dummy', 'enabled', 'idle', '2018-05-16 09:01:13', 0),
-(3, 'catalog_product_flat', 'enabled', 'idle', '2018-05-16 09:01:20', 822),
+(1, 'design_config_dummy', 'enabled', 'idle', '2018-05-16 11:15:32', 0),
+(2, 'customer_dummy', 'enabled', 'idle', '2018-05-16 11:15:40', 0),
+(3, 'catalog_product_flat', 'enabled', 'idle', '2018-05-16 11:15:54', 822),
 (4, 'catalog_category_flat', 'enabled', 'idle', '2018-05-07 05:27:49', 249),
-(5, 'catalog_category_product', 'enabled', 'idle', '2018-05-16 09:01:23', 266),
-(6, 'catalog_product_category', 'enabled', 'idle', '2018-05-16 08:48:20', NULL),
-(7, 'catalog_product_price', 'enabled', 'idle', '2018-05-16 09:01:28', 285),
-(8, 'catalog_product_attribute', 'enabled', 'idle', '2018-05-16 09:01:32', 679),
-(9, 'cataloginventory_stock', 'enabled', 'idle', '2018-05-16 09:01:36', 24),
-(10, 'catalogrule_rule', 'enabled', 'idle', '2018-05-16 09:01:42', 20),
-(11, 'catalogrule_product', 'enabled', 'idle', '2018-05-16 08:48:37', NULL),
-(12, 'catalogsearch_fulltext', 'enabled', 'idle', '2018-05-16 09:01:49', 929);
+(5, 'catalog_category_product', 'enabled', 'idle', '2018-05-16 11:15:56', 266),
+(6, 'catalog_product_category', 'enabled', 'idle', '2018-05-16 11:13:34', NULL),
+(7, 'catalog_product_price', 'enabled', 'idle', '2018-05-16 11:16:00', 285),
+(8, 'catalog_product_attribute', 'enabled', 'idle', '2018-05-16 11:16:04', 679),
+(9, 'cataloginventory_stock', 'enabled', 'idle', '2018-05-16 11:16:10', 24),
+(10, 'catalogrule_rule', 'enabled', 'idle', '2018-05-16 11:16:17', 20),
+(11, 'catalogrule_product', 'enabled', 'idle', '2018-05-16 11:14:06', NULL),
+(12, 'catalogsearch_fulltext', 'enabled', 'idle', '2018-05-16 11:16:25', 929);
 
 -- --------------------------------------------------------
 
@@ -13566,7 +13588,13 @@ INSERT INTO `oauth_consumer` (`entity_id`, `created_at`, `updated_at`, `name`, `
 (132, '2018-05-16 08:18:47', '0000-00-00 00:00:00', 'Integration132', '4rw9kfshlile3ibjjhm2j7nmf3a7s2g5', '27vbh9s1iiobnc615exatxg2x0iartuj', NULL, ''),
 (133, '2018-05-16 08:31:33', '0000-00-00 00:00:00', 'Integration133', 'ukm8gwug7627qsfbnrul1cf2kafud1mt', 'kf7f3ewulrhdp4nak5ndsg5i8xw0o4of', NULL, ''),
 (134, '2018-05-16 08:45:52', '0000-00-00 00:00:00', 'Integration134', 'h4khikob96oibfiif74821mdb2o5mja6', 'h0ntb8akrnddgkqwsnc7fsy88ua7o9we', NULL, ''),
-(135, '2018-05-16 08:48:09', '0000-00-00 00:00:00', 'Integration135', 'py10w3n7bexlxmcxvuntmktcas3j73at', 'tqslkqb4qby9xggt6ohiwh3g2m3ickyq', NULL, '');
+(135, '2018-05-16 08:48:09', '0000-00-00 00:00:00', 'Integration135', 'py10w3n7bexlxmcxvuntmktcas3j73at', 'tqslkqb4qby9xggt6ohiwh3g2m3ickyq', NULL, ''),
+(136, '2018-05-16 09:41:03', '0000-00-00 00:00:00', 'Integration136', '2tlm4ht0vovwc9upiivf2bsnd2mmb5qx', 'uhwysio428sop8ivkvaxes36p3dnitqx', NULL, ''),
+(137, '2018-05-16 10:05:29', '0000-00-00 00:00:00', 'Integration137', 'cmg3dq0k7nprk0mxo9h1c5uaqb2l2h4h', 'tr42ysn0xveny4h13rcsomh6c95i1hwk', NULL, ''),
+(138, '2018-05-16 10:19:56', '0000-00-00 00:00:00', 'Integration138', 'ql1hk5eve5egk8r4bp2g0d93osuf6x2e', 'ikilngquyujlek6uluqrf3miubld4who', NULL, ''),
+(139, '2018-05-16 10:28:02', '0000-00-00 00:00:00', 'Integration139', 'u73fam0vo43fluyalo6fgko8fwx91acs', '2rd7cagja9r9sb3kw5oj487h0v2buvx9', NULL, ''),
+(140, '2018-05-16 10:49:45', '0000-00-00 00:00:00', 'Integration140', 'k5j9l0wnshcyy3ieu3nv4hk3omrlsnjo', 'lj6wlb9k9b9oip51o3vf9webkqkdpw6w', NULL, ''),
+(141, '2018-05-16 11:13:12', '0000-00-00 00:00:00', 'Integration141', 'vhluicvusx8uxwr8n9mseaupilmtoh45', 'v2mpbt5f8bggswmnh68oe7viugx0gg4m', NULL, '');
 
 -- --------------------------------------------------------
 
@@ -14601,7 +14629,10 @@ INSERT INTO `report_event` (`event_id`, `logged_at`, `event_type_id`, `object_id
 (133, '2018-05-04 09:50:24', 1, 27, 178, 1, 1),
 (134, '2018-05-16 08:30:16', 1, 29, 0, 1, 1),
 (135, '2018-05-16 08:30:35', 1, 1, 0, 1, 1),
-(136, '2018-05-16 08:30:41', 1, 1, 0, 1, 1);
+(136, '2018-05-16 08:30:41', 1, 1, 0, 1, 1),
+(137, '2018-05-16 10:33:33', 1, 1, 0, 1, 1),
+(138, '2018-05-16 10:33:48', 1, 1, 0, 1, 1),
+(139, '2018-05-16 11:08:40', 1, 28, 0, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -14656,10 +14687,10 @@ INSERT INTO `report_viewed_product_aggregated_daily` (`id`, `period`, `store_id`
 (5, '2018-04-23', 1, 15, 'HP', '0.0000', 3, 3),
 (6, '2018-04-23', 1, 24, 'Gift', '0.0000', 1, 4),
 (7, '2018-04-24', 1, 1, 'Dell Inspirion', '24500.0000', 2, 2),
-(8, '2018-04-24', 1, 2, 'Lenovo', '85000.0000', 1, 6),
+(8, '2018-04-24', 1, 2, 'Lenovo', '85000.0000', 1, 5),
 (9, '2018-04-24', 1, 15, 'HP', '0.0000', 2, 3),
 (10, '2018-04-24', 1, 24, 'Gift', '0.0000', 2, 4),
-(11, '2018-04-24', 1, 25, 'Addidas T-Shirts', '400.0000', 1, 5),
+(11, '2018-04-24', 1, 25, 'Addidas T-Shirts', '400.0000', 1, 6),
 (12, '2018-04-24', 1, 26, 'Black Trousers', '1800.0000', 5, 1),
 (13, '2018-04-25', 1, 1, 'Dell Inspirion', '24500.0000', 17, 1),
 (14, '2018-04-25', 1, 2, 'Lenovo', '85000.0000', 1, 7),
@@ -14684,7 +14715,10 @@ INSERT INTO `report_viewed_product_aggregated_daily` (`id`, `period`, `store_id`
 (33, '2018-05-02', 1, 33, 'Proteus Fitness Jackshirt-XL-Black', '2700.0000', 3, 2),
 (34, '2018-05-03', 1, 32, 'Proteus Fitness Jackshirt-XL-Blue', '2700.0000', 2, 1),
 (35, '2018-05-04', 1, 1, 'Dell Inspirion', '24500.0000', 2, 1),
-(36, '2018-05-04', 1, 27, 'Dell Inspiron 3552 (Z565162HIN9) Notebook', '25440.0000', 2, 2);
+(36, '2018-05-04', 1, 27, 'Dell Inspiron 3552 (Z565162HIN9) Notebook', '25440.0000', 2, 2),
+(37, '2018-05-16', 1, 1, 'Dell Inspirion', '24500.0000', 4, 1),
+(38, '2018-05-16', 1, 28, 'Dell 3467 (A561201UIN9) Notebook', '25990.0000', 1, 2),
+(39, '2018-05-16', 1, 29, 'Formal Trouser', '1200.0000', 1, 3);
 
 --
 -- Indexes for dumped tables
@@ -16713,17 +16747,17 @@ ALTER TABLE `admin_user`
 -- AUTO_INCREMENT for table `admin_user_session`
 --
 ALTER TABLE `admin_user_session`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity ID', AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity ID', AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `authorization_role`
 --
 ALTER TABLE `authorization_role`
-  MODIFY `role_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Role ID', AUTO_INCREMENT=145;
+  MODIFY `role_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Role ID', AUTO_INCREMENT=151;
 --
 -- AUTO_INCREMENT for table `authorization_rule`
 --
 ALTER TABLE `authorization_rule`
-  MODIFY `rule_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Rule ID', AUTO_INCREMENT=95236;
+  MODIFY `rule_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Rule ID', AUTO_INCREMENT=99628;
 --
 -- AUTO_INCREMENT for table `cataloginventory_stock`
 --
@@ -16813,7 +16847,7 @@ ALTER TABLE `catalog_category_entity_varchar`
 -- AUTO_INCREMENT for table `catalog_category_flat_cl`
 --
 ALTER TABLE `catalog_category_flat_cl`
-  MODIFY `version_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Version ID', AUTO_INCREMENT=250;
+  MODIFY `version_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Version ID', AUTO_INCREMENT=256;
 --
 -- AUTO_INCREMENT for table `catalog_category_product`
 --
@@ -16913,7 +16947,7 @@ ALTER TABLE `catalog_product_flat_cl`
 -- AUTO_INCREMENT for table `catalog_product_frontend_action`
 --
 ALTER TABLE `catalog_product_frontend_action`
-  MODIFY `action_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Product Action Id', AUTO_INCREMENT=148;
+  MODIFY `action_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Product Action Id', AUTO_INCREMENT=149;
 --
 -- AUTO_INCREMENT for table `catalog_product_link`
 --
@@ -17013,7 +17047,7 @@ ALTER TABLE `cms_page`
 -- AUTO_INCREMENT for table `core_config_data`
 --
 ALTER TABLE `core_config_data`
-  MODIFY `config_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Config Id', AUTO_INCREMENT=243;
+  MODIFY `config_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Config Id', AUTO_INCREMENT=244;
 --
 -- AUTO_INCREMENT for table `cron_schedule`
 --
@@ -17338,7 +17372,7 @@ ALTER TABLE `indexer_state`
 -- AUTO_INCREMENT for table `integration`
 --
 ALTER TABLE `integration`
-  MODIFY `integration_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Integration ID', AUTO_INCREMENT=136;
+  MODIFY `integration_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Integration ID', AUTO_INCREMENT=142;
 --
 -- AUTO_INCREMENT for table `layout_link`
 --
@@ -17388,7 +17422,7 @@ ALTER TABLE `newsletter_template`
 -- AUTO_INCREMENT for table `oauth_consumer`
 --
 ALTER TABLE `oauth_consumer`
-  MODIFY `entity_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity Id', AUTO_INCREMENT=136;
+  MODIFY `entity_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Entity Id', AUTO_INCREMENT=142;
 --
 -- AUTO_INCREMENT for table `oauth_token`
 --
@@ -17548,7 +17582,7 @@ ALTER TABLE `report_compared_product_index`
 -- AUTO_INCREMENT for table `report_event`
 --
 ALTER TABLE `report_event`
-  MODIFY `event_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Event Id', AUTO_INCREMENT=137;
+  MODIFY `event_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Event Id', AUTO_INCREMENT=140;
 --
 -- AUTO_INCREMENT for table `report_event_types`
 --
@@ -17558,7 +17592,7 @@ ALTER TABLE `report_event_types`
 -- AUTO_INCREMENT for table `report_viewed_product_aggregated_daily`
 --
 ALTER TABLE `report_viewed_product_aggregated_daily`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Id', AUTO_INCREMENT=37;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Id', AUTO_INCREMENT=64;
 --
 -- Constraints for dumped tables
 --
