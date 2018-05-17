@@ -66,3 +66,11 @@ DELETE FROM `eav_attribute` WHERE `source_model` LIKE '%Mageplaza%' OR `backend_
 
 Fix error : 
 https://magento.stackexchange.com/questions/224089/magento-2-tries-to-load-old-theme-on-category-pages
+
+
+
+ssh/sftp (not ftp)
+
+host: 655240.s.dedikuoti.lt
+user: mugloodev
+pass: urocenti62
