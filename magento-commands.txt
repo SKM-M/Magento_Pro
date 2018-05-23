@@ -74,3 +74,7 @@ ssh/sftp (not ftp)
 host: 655240.s.dedikuoti.lt
 user: mugloodev
 pass: urocenti62
+
+command to take backup of database and code 
+
+php bin\magento setup:backup --code --db
