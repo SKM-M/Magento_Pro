@@ -11,7 +11,7 @@
 <p><?php //echo $block->getTest(); ?></p>
 <p><?php //echo __('This is a text.') ?></p>
 
-<table class="table table-bordered">
+<table class="table table-bordered" id="example">
     <thead>
       <tr>
         <th>S.No.</th>
@@ -32,3 +32,13 @@
     <?php endforeach; ?>  
     </tbody>
 </table>
+<script>
+    require([
+        'jquery',
+        'Shesh_Test/js/jquery.dataTables.min'
+    ], function($, $t){
+        $(document).ready(function() {
+            $('#example').DataTable();
+        } );
+    })
+</script>

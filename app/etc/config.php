@@ -141,7 +141,6 @@ return array (
     'Mageplaza_HelloWorld' => 1,
     'Renouard_Megamenu' => 0,
     'Shesh_Blog' => 0,
-    'Shesh_Modulecontact' => 0,
     'Shesh_Test' => 1,
     'Shopial_Facebook' => 1,
     'Swissup_Core' => 1,
