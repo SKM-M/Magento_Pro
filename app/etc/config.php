@@ -140,6 +140,7 @@ return array (
     'Magento_WishlistSampleData' => 1,
     'Mageplaza_HelloWorld' => 1,
     'Renouard_Megamenu' => 0,
+    'SR_DeliveryDate' => 1,
     'Shesh_Blog' => 0,
     'Shesh_Test' => 1,
     'Shopial_Facebook' => 1,
