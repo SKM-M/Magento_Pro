@@ -176,7 +176,7 @@
                     <item name="namespace" xsi:type="string">current.${ $.storageConfig.root }</item>
             </item>
         </item>
-   </argument>
+    </argument>
     <selectionsColumn name="ids">
         <argument name="data" xsi:type="array">
             <item name="config" xsi:type="array">

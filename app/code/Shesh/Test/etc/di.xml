@@ -35,4 +35,7 @@
             <argument name="filterPool" xsi:type="object" shared="false">TestGirdFilterPool</argument>
         </arguments>
     </virtualType>
+     <type name="Shesh\Test\Controller\Index\Example">
+        <plugin name="Shesh_Test_Plugin" type="Shesh\Test\Plugin\ExamplePlugin" sortOrder="10" />
+    </type>
 </config>
